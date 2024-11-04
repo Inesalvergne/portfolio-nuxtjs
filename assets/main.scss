@@ -11,7 +11,7 @@
   }
 
   h1 {
-    @apply text-5xl font-title font-bold text-brick;
+    @apply text-[62px] font-title font-bold text-brick;
   }
 
   p {
@@ -21,6 +21,14 @@
 
 @layer components {
   .text-gradient {
-    @apply bg-gradient bg-clip-text text-transparent w-fit;
+    @apply bg-gradient bg-clip-text text-transparent w-fit text-[20px];
+  }
+
+  .btn-primary {
+    @apply bg-brick text-white py-2 px-4 rounded-sm inline-block hover:shadow-lg;
+  }
+
+  .tag {
+    @apply border border-brick rounded-lg py-1 px-2 w-fit text-brick flex items-center gap-2;
   }
 }
