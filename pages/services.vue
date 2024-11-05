@@ -27,22 +27,43 @@
         <IconsTeewee />
         <h2>Get the ground running - <br> Building a website / app</h2>
         <p>
-          I'll help you find your ideal customer, define your user journeys, and design the flow of your application.
-          Then, I’ll prototype interfaces that capture the essence of your brand and provide a seamless user experience.
+          Whether you're looking to build an MVP or add new features to an existing app, I specialize in building
+          efficient, scalable solutions with Ruby on Rails.  Together, we'll ensure your app evolves alongside your business goals.
         </p>
       </div>
 
       <div class="tools-container bg-transparent-pastel-2">
         <p>TOOLS</p>
         <div class="tools-list">
-          <IconsLogoRuby/>
-          <IconsLogoRails/>
-          <IconsLogoJavascript/>
-          <IconsLogoStimulus/>
-          <IconsLogoTailwind/>
-          <IconsLogoBootstrap/>
-          <IconsLogoNuxt/>
-          <IconsLogoVue/>
+          <IconsLogoRuby />
+          <IconsLogoRails />
+          <IconsLogoJavascript />
+          <IconsLogoStimulus />
+          <IconsLogoTailwind />
+          <IconsLogoBootstrap />
+          <IconsLogoNuxt />
+          <IconsLogoVue />
+        </div>
+      </div>
+    </div>
+
+    <div class="card-service bg-transparent-pastel-2">
+      <div class="content">
+        <IconsTeewee />
+        <h2>Ready to shine - <br> Deploying & collaborating</h2>
+        <p>
+          Whether you're looking to build an MVP or add new features to an existing app, I specialize in building
+          efficient, scalable solutions with Ruby on Rails.  Together, we'll ensure your app evolves alongside your business goals.
+        </p>
+      </div>
+
+      <div class="tools-container bg-transparent-pastel-2">
+        <p>TOOLS</p>
+        <div class="tools-list">
+          <IconsLogoHeroku />
+          <IconsLogoNetlify />
+          <IconsLogoGithub />
+          <IconsLogoGitlab />
         </div>
       </div>
     </div>
