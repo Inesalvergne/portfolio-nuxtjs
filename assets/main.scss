@@ -11,7 +11,7 @@
   }
 
   h1 {
-    @apply text-[62px] font-title font-bold text-brick;
+    @apply text-[46px] font-title text-gradient mx-auto mb-5;
   }
 
   p {
@@ -30,5 +30,41 @@
 
   .tag {
     @apply border border-brick rounded-lg py-1 px-2 w-fit text-brick flex items-center gap-2;
+  }
+
+  .homepage-title {
+    @apply text-[62px] font-title font-bold text-brick;
+  }
+
+  .page-header {
+    @apply text-center my-10;
+  }
+
+  .card-service {
+    @apply w-3/5 mx-auto rounded-lg mb-10;
+
+    .content {
+      @apply px-10 pt-10 pb-5;
+    }
+
+    h2 {
+      @apply text-[38px] leading-10 font-bold font-title text-brick mb-5;
+    }
+
+    p {
+      @apply mb-2;
+    }
+
+    svg {
+      @apply mb-5;
+    }
+
+    .tools-container {
+      @apply mix-blend-darken px-10 py-3 rounded-b-lg;
+
+      p {
+        @apply text-pink font-bold mb-4;
+      }
+    }
   }
 }

@@ -34,6 +34,9 @@ module.exports = {
         salmon: "FFA9A2",
         coral: "#EC9F89",
         "light-peach": "rgba(255, 189, 152, 0.05)",
+        "transparent-pastel-1": "rgba(255, 169, 162, 0.10)",
+        "transparent-pastel-2": "rgba(255, 189, 152, 0.10)",
+        "transparent-pastel-3": "rgba(224, 130, 102, 0.10)",
       },
       backgroundImage: {
         gradient:

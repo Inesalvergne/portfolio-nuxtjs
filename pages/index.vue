@@ -5,7 +5,7 @@
       Available
     </div>
     <p class="text-gradient m-auto text-2xl font-bold">Ines Alvergne</p>
-    <h1 class="mb-5">Freelance Web Developer</h1>
+    <h1 class="mb-5 homepage-title">Freelance Web Developer</h1>
     <p class="text-xl">I help entrepreneurs, startups, and SMEs on their journey to success.</p>
     <p class="text-xl">Let's build someting together!</p>
     <NuxtLink to="/services" class="btn-primary mt-5">
