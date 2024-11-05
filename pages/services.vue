@@ -34,7 +34,16 @@
 
       <div class="tools-container bg-transparent-pastel-2">
         <p>TOOLS</p>
-        <IconsLogoFigma />
+        <div class="tools-list">
+          <IconsLogoRuby/>
+          <IconsLogoRails/>
+          <IconsLogoJavascript/>
+          <IconsLogoStimulus/>
+          <IconsLogoTailwind/>
+          <IconsLogoBootstrap/>
+          <IconsLogoNuxt/>
+          <IconsLogoVue/>
+        </div>
       </div>
     </div>
 

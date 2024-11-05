@@ -65,6 +65,10 @@
       p {
         @apply text-pink font-bold mb-4;
       }
+
+      .tools-list {
+        @apply flex flex-wrap items-center gap-x-5;
+      }
     }
   }
 }
