@@ -10,10 +10,10 @@ module.exports = {
   ],
   theme: {
     screens: {
-      sm: "640px",
-      md: "768px",
-      lg: "1024px",
-      xl: "1280px",
+      mobile: "375px",
+      tablet: "640px",
+      laptop: "1024px",
+      desktop: "1280px",
     },
     fontFamily: {
       title: ["Karla", "sans-serif"],
@@ -22,6 +22,7 @@ module.exports = {
     borderRadius: {
       sm: "8px",
       lg: "20px",
+      xl: "40px",
     },
     extend: {
       colors: {

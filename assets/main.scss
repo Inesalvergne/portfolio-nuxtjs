@@ -21,7 +21,7 @@
 
 @layer components {
   .text-gradient {
-    @apply bg-gradient bg-clip-text text-transparent w-fit text-[20px];
+    @apply bg-gradient bg-clip-text text-transparent w-fit;
   }
 
   .btn-primary {
