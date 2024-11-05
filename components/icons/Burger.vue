@@ -1,9 +1,19 @@
 <template>
-  <svg role="button" id="burgerIcon" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="#AC344B" fillRule="#AC344B" d="M3.5 5a1 1 0 0 0 0 2h17a1 1 0 1 0 0-2zm-1 7a1 1 0 0 1 1-1h17a1 1 0 1 1 0 2h-17a1 1 0 0 1-1-1m0 6.001a1 1 0 0 1 1-1h17a1 1 0 1 1 0 2h-17a1 1 0 0 1-1-1" clipRule="evenodd"></path></svg>
+  <div class="grid justify-items-center gap-1.5">
+    <span class="h-1 w-8 rounded-full bg-brick transition" :class="{'rotate-45 translate-y-2.5': showMenu }"></span>
+    <span class="h-1 w-8 rounded-full bg-brick transition" :class="{'scale-x-0': showMenu }"></span>
+    <span class="h-1 w-8 rounded-full bg-brick transition" :class="{'-rotate-45 -translate-y-2.5': showMenu }"></span>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'IconamoonMenuBurgerHorizontalFill'
+  name: 'burgerIcon',
+  props: {
+    showMenu: {
+      type: Boolean,
+      default: false
+    }
+  }
 }
 </script>
