@@ -7,65 +7,117 @@
 
 @layer base {
   body {
-    @apply bg-light-peach;
+    @apply
+    bg-light-peach;
   }
 
   h1 {
-    @apply text-[46px] font-title text-gradient mx-auto mb-5;
+    @apply
+      text-[32px] tablet:text-[38px] desktop:text-[46px]
+      leading-10 tablet:leading-normal
+      font-title
+      text-gradient
+      mx-auto
+      mb-5;
   }
 
   p {
-    @apply text-black font-body;
+    @apply
+      text-black
+      font-body;
   }
 }
 
 @layer components {
   .text-gradient {
-    @apply bg-gradient bg-clip-text text-transparent w-fit;
+    @apply
+      bg-gradient
+      bg-clip-text
+      text-transparent
+      w-fit;
   }
 
   .btn-primary {
-    @apply bg-brick text-white py-2 px-4 rounded-sm inline-block hover:shadow-lg;
+    @apply
+      bg-brick
+      text-white
+      py-2 px-4
+      rounded-sm
+      inline-block
+      hover:shadow-lg;
   }
 
   .tag {
-    @apply border border-brick rounded-lg py-1 px-2 w-fit text-brick flex items-center gap-2;
+    @apply
+      flex items-center gap-2
+      border border-brick
+      text-brick
+      rounded-lg
+      py-1 px-2
+      w-fit;
   }
 
   .homepage-title {
-    @apply text-[62px] font-title font-bold text-brick;
+    @apply
+      text-[62px]
+      font-title
+      font-bold
+      text-brick;
   }
 
   .page-header {
-    @apply text-center my-10;
+    @apply
+      text-center
+      px-6
+      my-10;
   }
 
   .card-service {
-    @apply w-3/5 mx-auto rounded-lg mb-10;
+    @apply
+      w-4/5 desktop:w-3/5
+      mx-auto mb-10
+      rounded-lg;
 
     .content {
-      @apply px-10 pt-10 pb-5;
+      @apply
+        px-10 pt-10 pb-5;
     }
 
     h2 {
-      @apply text-[34px] leading-10 font-bold font-title text-brick mb-5;
+      @apply
+        text-[26px] tablet:text-[30px] desktop:text-[34px]
+        leading-8 desktop:leading-10
+        font-bold
+        font-title
+        text-brick
+        mb-5;
     }
 
     p {
-      @apply mb-2 text-[20px];
+      @apply
+        text-[16px] tablet:text-[18px] desktop:text-[20px]
+        mb-2;
     }
 
-    .shape { @apply mb-10;}
+    .shape { @apply mb-10; }
 
     .tools-container {
-      @apply mix-blend-darken px-10 py-3 rounded-b-lg;
+      @apply
+        mix-blend-darken
+        px-10 py-3
+        rounded-b-lg;
 
       p {
-        @apply text-pink font-bold mb-4;
+        @apply
+          text-pink
+          font-bold
+          mb-4;
       }
 
       .tools-list {
-        @apply flex flex-wrap items-center gap-x-5 mb-5;
+        @apply
+          flex flex-wrap items-center gap-x-5 gap-y-3
+          mb-5;
       }
     }
   }
