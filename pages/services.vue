@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="page-header">
+    <div class="page-head">
       <h1>Let's build something great together</h1>
       <p>Whether your want to start from scratch or add new features to your project, I'm here to help.</p>
       <p>You can hire me as a solo dev or I can join your team for one or all of the services below.</p>
     </div>
 
     <!-- Scopes & prototypes -->
-    <div class="card-service bg-transparent-pastel-1">
+    <div class="card-service bg-transparent-pastel-1" v-motion-pop-visible-once>
       <div class="content">
         <IconsShapesArc class="shape" />
         <h2>Zero to one - Scopes & Prototypes</h2>
@@ -27,7 +27,7 @@
     </div>
 
     <!-- Build an app-->
-    <div class="card-service bg-transparent-pastel-2">
+    <div class="card-service bg-transparent-pastel-2" v-motion-pop-visible-once>
       <div class="content">
         <IconsShapesTeewee class="shape" />
         <h2>Hit the ground running - Build a website or app</h2>
@@ -53,7 +53,7 @@
     </div>
 
     <!-- Connection to APIs -->
-    <div class="card-service bg-transparent-pastel-3">
+    <div class="card-service bg-transparent-pastel-3" v-motion-pop-visible-once>
       <div class="content">
         <IconsShapesWarm class="shape" />
         <h2>Connect & Grow - APIs integrations</h2>
@@ -76,7 +76,7 @@
     </div>
 
     <!-- Tests, deploy & collaboration -->
-    <div class="card-service bg-transparent-pastel-1">
+    <div class="card-service bg-transparent-pastel-1" v-motion-pop-visible-once>
       <div class="content">
         <IconsShapesDirection class="shape" />
         <h2>Ready to shine - Tests, deploy & collaboration</h2>
@@ -99,7 +99,7 @@
     </div>
 
     <!-- Boost & track traffic -->
-    <div class="card-service bg-transparent-pastel-2">
+    <div class="card-service bg-transparent-pastel-2" v-motion-pop-visible-once>
       <div class="content">
         <IconsShapesInfinity class="shape" />
         <h2>Conquer the market - Boost & track traffic</h2>

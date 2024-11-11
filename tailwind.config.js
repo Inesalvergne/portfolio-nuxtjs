@@ -42,6 +42,11 @@ module.exports = {
         gradient:
           "linear-gradient(90deg, #AC344B 0%, #D87084 60%, #FFBD98 100%)",
         glow: "url('@/assets/images/glow.png')",
+        "glow-header": "url('@/assets/images/glow-header.png')",
+        "corner-glow-left":
+          "radial-gradient(circle at top left, #D87084, transparent)",
+        "corner-glow-right":
+          "radial-gradient(circle at top right, #FD8C6E, transparent)",
       },
     },
   },
