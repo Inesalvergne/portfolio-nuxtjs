@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'burgerIcon',
+  name: 'burgerShape',
   props: {
     showMenu: {
       type: Boolean,

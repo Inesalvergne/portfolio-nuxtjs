@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'TeeweeIcon',
+  name: 'TeeweeShape',
 }
 </script>

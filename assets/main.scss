@@ -48,16 +48,14 @@
     }
 
     h2 {
-      @apply text-[38px] leading-10 font-bold font-title text-brick mb-5;
+      @apply text-[34px] leading-10 font-bold font-title text-brick mb-5;
     }
 
     p {
-      @apply mb-2;
+      @apply mb-2 text-[20px];
     }
 
-    svg {
-      @apply mb-5;
-    }
+    .shape { @apply mb-10;}
 
     .tools-container {
       @apply mix-blend-darken px-10 py-3 rounded-b-lg;
@@ -67,7 +65,7 @@
       }
 
       .tools-list {
-        @apply flex flex-wrap items-center gap-x-5;
+        @apply flex flex-wrap items-center gap-x-5 mb-5;
       }
     }
   }
