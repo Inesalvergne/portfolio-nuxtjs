@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- On Desktop -->
-    <div class="hidden tablet:block border border-brick rounded-xl w-fit mx-auto">
+    <div class="hidden tablet:block border border-brick rounded-xl w-fit mx-auto mt-10 ">
       <div class="flex gap-10 py-4 px-10 text-brick">
         <NuxtLink
           v-for="(link, index) in navLinks"
@@ -39,7 +39,7 @@
     { text: 'ABOUT ME', to: '/about' },
     { text: 'SERVICES', to: '/services' },
     { text: 'PROJECTS', to: '/projects' },
-    { text: 'GET IN TOUCH', to: '/get-in-touch' },
+    { text: 'GET IN TOUCH', to: '/contact' },
   ]
 
   const showMenu = ref(false)

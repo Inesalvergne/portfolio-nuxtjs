@@ -13,7 +13,7 @@
 
   h1 {
     @apply
-      text-[32px] tablet:text-[38px] desktop:text-[46px]
+      text-[32px] tablet:text-[38px] laptop:text-[46px]
       leading-10 tablet:leading-normal
       font-title
       text-gradient
@@ -65,7 +65,7 @@
       text-brick;
   }
 
-  .page-header {
+  .page-head {
     @apply
       text-center
       px-6
@@ -74,7 +74,7 @@
 
   .card-service {
     @apply
-      w-4/5 desktop:w-3/5
+      w-4/5 laptop:w-3/5
       mx-auto mb-10
       rounded-lg;
 
@@ -85,8 +85,8 @@
 
     h2 {
       @apply
-        text-[26px] tablet:text-[30px] desktop:text-[34px]
-        leading-8 desktop:leading-10
+        text-[26px] tablet:text-[30px] laptop:text-[34px]
+        leading-8 laptop:leading-10
         font-bold
         font-title
         text-brick
@@ -95,7 +95,7 @@
 
     p {
       @apply
-        text-[16px] tablet:text-[18px] desktop:text-[20px]
+        text-[16px] tablet:text-[18px] laptop:text-[20px]
         mb-2;
     }
 
