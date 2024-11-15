@@ -1,6 +1,6 @@
 <template>
-    <div class="flex justify-between gap-20 my-8 pb-4 border-b-2 border-pink">
-      <div>
+    <div class="flex justify-between laptop:gap-20 my-8 pb-4 border-b-2 border-pink">
+      <div class="flex-1">
         <p class="text-brick font-medium">{{ company }}</p>
         <p>{{ role }}</p>
       </div>
