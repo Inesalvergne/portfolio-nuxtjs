@@ -11,7 +11,7 @@
     <div class="laptop:flex gap-10 items-center w-3/4 desktop:w-2/4 mx-auto bg-light-pink p-10 rounded-lg" v-motion-pop-visible-once>
       <img src="@/assets/images/profile-picture-shapes.png" alt="ines alvergne profile picture" width="250">
       <div>
-        <p class="text-brick font-semibold font-title mb-5">
+        <p class="text-brick font-semibold font-title text-[22px] mb-5">
           My diverse career path has shaped the way I approach web development today.
         </p>
         <p class="mb-5">
@@ -25,18 +25,13 @@
     </div>
 
     <div class="w-3/4 desktop:w-2/4 mx-auto flex justify-between mt-10 gap-5">
-      <div class="w-1/4 bg-transparent-pastel-1 rounded-sm p-5" v-motion-pop-visible-once>
-        <p class="text-[34px] font-title text-brick">7+</p>
-        <p>years of experience in the tech industry</p>
-      </div>
-      <div class="w-1/4 bg-transparent-pastel-2 rounded-sm p-5" v-motion-pop-visible-once>
-        <p class="text-[34px] font-title text-brick">6</p>
-        <p>happy clients with Rails apps in production</p>
-      </div>
-      <div class="w-1/4 bg-transparent-pastel-3 rounded-sm p-5" v-motion-pop-visible-once>
-        <p class="text-[34px] font-title text-brick">3</p>
-        <p>languages I can work with 🇫🇷 🇬🇧 🇪🇸</p>
-      </div>
+      <ProfileStatisticCard
+        v-for="(stat, index) in statistics"
+        :key="index"
+        :value="stat.value"
+        :description="stat.description"
+        :bgColor="stat.bgColor"
+      />
     </div>
 
     <div class="bg-transparent-pastel-2 w-full mt-10">
@@ -44,77 +39,49 @@
         <div class="flex justify-between">
           <div>
             <h2 class="text-brick">Work Experience</h2>
-
-            <div class="flex justify-between gap-20 my-8 pb-4 border-b-2 border-pink">
-              <div>
-                <p class="text-brick font-medium">Self-Employed</p>
-                <p>Freelance Web Developer</p>
-              </div>
-              <p class="italic">2022 - now</p>
-            </div>
-
-            <div class="flex justify-between gap-20 my-8 pb-4 border-b-2 border-pink">
-              <div>
-                <p class="text-brick font-medium">Le Wagon</p>
-                <p>Teacher in Web Development</p>
-              </div>
-              <p class="italic">2022 - now</p>
-            </div>
-
-            <div class="flex justify-between gap-20 my-8 pb-4 border-b-2 border-pink">
-              <div>
-                <p class="text-brick font-medium">Le Wagon</p>
-                <p>Marketing Lead</p>
-              </div>
-              <p class="italic">2021 - 2023</p>
-            </div>
-
-            <div class="flex justify-between gap-20 my-8 pb-4 border-b-2 border-pink">
-              <div>
-                <p class="text-brick font-medium">Keela</p>
-                <p>Content Marketing Specialist</p>
-              </div>
-              <p class="italic">2019 - 2020</p>
-            </div>
-
-            <div class="flex justify-between gap-20 my-8 pb-4 border-b-2 border-pink">
-              <div>
-                <p class="text-brick font-medium">La Pieza</p>
-                <p>Communications Coordinator</p>
-              </div>
-              <p class="italic">2018 - 2019</p>
-            </div>
+            <ProfileExperienceItem
+              v-for="(item, index) in workItems"
+              :key="index"
+              :company="item.company"
+              :role="item.role"
+              :period="item.period"
+            />
           </div>
 
           <div>
             <h2 class="text-brick">Education</h2>
-
-            <div class="flex justify-between gap-20 my-8 pb-4 border-b-2 border-pink">
-              <div>
-                <p class="text-brick font-medium">Le Wagon</p>
-                <p>Full-Stack Web Development bootcamp</p>
-              </div>
-              <p class="italic">2022</p>
-            </div>
-
-            <div class="flex justify-between gap-20 my-8 pb-4 border-b-2 border-pink">
-              <div>
-                <p class="text-brick font-medium">McGill University</p>
-                <p>Master of Arts in Political Science</p>
-              </div>
-              <p class="italic">2016 - 2018</p>
-            </div>
-
-            <div class="flex justify-between gap-20 my-8 pb-4 border-b-2 border-pink">
-              <div>
-                <p class="text-brick font-medium">European School of Political Science</p>
-                <p>Bachelor in European Studies</p>
-              </div>
-              <p class="italic">2013 - 2016</p>
-            </div>
+            <ProfileExperienceItem
+              v-for="(item, index) in educationItems"
+              :key="index"
+              :company="item.company"
+              :role="item.role"
+              :period="item.period"
+            />
           </div>
         </div>
       </div>
     </div>
   </section>
 </template>
+
+<script setup>
+  const statistics = [
+    { value: '7+', description: 'years of experience in the tech industry', bgColor: 'bg-transparent-pastel-1' },
+    { value: '6', description: 'happy clients with Rails apps in production', bgColor: 'bg-transparent-pastel-2' },
+    { value: '3', description: 'languages I can work with 🇫🇷 🇬🇧 🇪🇸', bgColor: 'bg-transparent-pastel-3' },
+  ]
+
+  const workItems = [
+    { company: 'Self-Employed', role: 'Freelance Web Developer', period: '2022 - now' },
+    { company: 'Le Wagon', role: 'Teacher in Web Development', period: '2022 - now' },
+    { company: 'Le Wagon', role: 'Marketing Lead', period: '2021 - 2023' },
+    { company: 'Keela', role: 'Content Marketing Specialist', period: '2019 - 2020' },
+    { company: 'La Pieza', role: 'Communications Coordinator', period: '2018 - 2019' },
+  ]
+
+  const educationItems = [
+    { company: 'Le Wagon', role: 'Full-Stack Web Development bootcamp', period: '2022' },
+    { company: 'McGill University', role: 'Master of Arts in Political Science', period: '2016 - 2018' },
+    { company: 'European School of Political Science', role: 'Bachelor in European Studies', period: '2013 - 2016' },
+  ]
+</script>
