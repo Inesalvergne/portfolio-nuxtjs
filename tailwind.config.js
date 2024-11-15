@@ -13,7 +13,7 @@ module.exports = {
       mobile: "375px",
       tablet: "640px",
       laptop: "1024px",
-      desktop: "1280px",
+      desktop: "1400px",
     },
     fontFamily: {
       title: ["Karla", "sans-serif"],
@@ -30,6 +30,7 @@ module.exports = {
         maroon: "#800F2F",
         brick: "#AC344B",
         pink: "#D87084",
+        "light-pink": "rgba(216,112,132, 0.07)",
         peach: "#FFBD98",
         salmon: "FFA9A2",
         coral: "#EC9F89",
