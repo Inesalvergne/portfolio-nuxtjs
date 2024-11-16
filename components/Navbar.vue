@@ -1,21 +1,29 @@
 <template>
   <div>
     <!-- On Desktop -->
-    <div class="hidden tablet:block border border-brick rounded-xl w-fit mx-auto mt-10 ">
-      <div class="flex gap-10 py-4 px-10 text-brick">
+    <div class="hidden tablet:block border border-pink rounded-lg w-fit mx-auto mt-10 ">
+      <div class="flex items-center gap-16 py-3 px-10 text-brick">
+        <NuxtLink to="/">
+          <img src="@/assets/images/logo_ia.png" alt="logo ines alvergne" width="40" height="40">
+        </NuxtLink>
         <NuxtLink
           v-for="(link, index) in navLinks"
           :key="index"
           :to="link.to"
-          class="hover:text-gradient">
+          class="text-[20px] hover:text-gradient">
           {{ link.text }}
         </NuxtLink>
       </div>
     </div>
 
     <!-- on Mobile -->
-    <div class="tablet:hidden flex justify-end px-6 py-4 bg-white">
-      <IconsBurger :showMenu="showMenu" @click="toggleMenu"/>
+    <div class="tablet:hidden flex justify-between items-center px-6 py-4 bg-white">
+        <NuxtLink to="/">
+          <img src="@/assets/images/logo_ia.png" alt="logo ines alvergne" width="40" height="40">
+        </NuxtLink>
+        <div class="my-auto">
+          <IconsBurger :showMenu="showMenu" @click="toggleMenu"/>
+        </div>
     </div>
     <div v-if="showMenu" class="laptop:hidden absolute top-[50px] w-full z-[1] inset-x-0 h-fit py-5 px-7  bg-white shadow-md">
       <div class="flex flex-col items-end gap-6 mt-3 text-brick">
