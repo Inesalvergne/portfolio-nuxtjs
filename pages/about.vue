@@ -8,8 +8,9 @@
       </p>
     </div>
 
-    <div class="laptop:flex gap-10 items-center w-3/4 desktop:w-2/4 mx-auto bg-light-pink p-10 rounded-lg" v-motion-pop-visible-once>
-      <img src="@/assets/images/profile-picture-shapes.png" alt="ines alvergne profile picture" width="250" class="mb-10 laptop:m-0">
+    <div class="w-4/5 laptop:w-3/5 laptop:flex gap-10 items-center  mx-auto bg-light-pink p-10 rounded-lg" v-motion-pop-visible-once>
+      <img src="@/assets/images/profile-picture-shapes.png" alt="ines alvergne profile picture" width="250" class="mb-10 lapuntop:m-0">
+
       <div>
         <p class="text-brick font-semibold font-title text-[22px] mb-5">
           My diverse career path has shaped the way I approach web development today.
@@ -24,7 +25,7 @@
       </div>
     </div>
 
-    <div class="laptop:w-3/4 desktop:w-2/4 mx-auto laptop:flex justify-between mt-10 gap-5">
+    <div class="w-4/5 laptop:w-3/5 mx-auto laptop:flex justify-between mt-10 gap-5">
       <ProfileStatisticCard
         v-for="(stat, index) in statistics"
         :key="index"
@@ -35,7 +36,7 @@
     </div>
 
     <div class="bg-transparent-pastel-2 w-full mt-10">
-      <div class="w-3/4 desktop:w-2/4 mx-auto pt-10">
+      <div class="w-4/5 laptop:w-3/5 mx-auto pt-10">
         <div class="laptop:flex justify-between">
           <div>
             <h2 class="text-brick">Work Experience</h2>
