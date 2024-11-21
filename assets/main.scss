@@ -140,4 +140,12 @@
       @apply text-brick text-[20px] font-bold mb-5;
     }
   }
+
+  .card-testimonial {
+    @apply w-2/3 bg-white shadow-sm rounded-lg p-10;
+
+    h3 {
+      @apply text-brick text-[20px] font-bold mb-5;
+    }
+  }
 }

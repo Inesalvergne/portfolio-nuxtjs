@@ -49,7 +49,7 @@
     </section>
 
     <section>
-      <h2>We work(ed) together</h2>
+      <h2>We work together</h2>
 
       <div class="grid grid-cols-5 gap-14 items-center">
         <img src="@/assets/images/client_logos/wally.webp" alt="wally logo" class="h-auto max-h-16 max-w-25">
@@ -62,6 +62,8 @@
 
     <section>
       <h2>What people say about my work</h2>
+
+      <TestimonialsCarrousel />
     </section>
   </main>
 </template>
