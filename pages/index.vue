@@ -26,14 +26,14 @@
       <h2>Why hire me for your next project</h2>
 
       <div class="flex gap-12">
-        <div class="card-strength bg-transparent-pastel-1">
+        <div class="card-small bg-transparent-pastel-1">
           <h3>Ready to deliver</h3>
           <p>I've hands-on experience working on Ruby on Rails projects.
             I can either join your team or we can start your new project together.
           </p>
         </div>
 
-        <div class="card-strength bg-transparent-pastel-2">
+        <div class="card-small bg-transparent-pastel-2">
           <h3>More than just code</h3>
           <p>
             With a background in marketing, I design products that connect with user
@@ -41,7 +41,7 @@
           </p>
         </div>
 
-        <div class="card-strength bg-transparent-pastel-3">
+        <div class="card-small bg-transparent-pastel-3">
           <h3>Driven and curious</h3>
           <p>I've pivot careers twice. I'm always eager to tackle new challenges and learn.</p>
         </div>
@@ -61,7 +61,7 @@
     </section>
 
     <section>
-      <h2>What people say about my work</h2>
+      <h2>What people say about our collaboration</h2>
 
       <TestimonialsCarrousel />
     </section>
