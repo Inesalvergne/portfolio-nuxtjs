@@ -24,6 +24,15 @@ module.exports = {
       lg: "20px",
       xl: "40px",
     },
+    container: {
+      padding: {
+        DEFAULT: "12rem",
+        sm: "2rem",
+        lg: "4rem",
+        xl: "10rem",
+        "2xl": "6rem",
+      },
+    },
     extend: {
       colors: {
         black: "#333333",

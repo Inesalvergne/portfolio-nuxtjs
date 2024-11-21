@@ -7,8 +7,13 @@
 
 @layer base {
   body {
-    @apply
-    bg-light-peach;
+    @apply bg-light-peach;
+  }
+
+  section {
+    @apply mt-20;
+
+    h2 { @apply text-[34px] mb-14 }
   }
 
   h1,h2,h3,h4 {
@@ -26,7 +31,7 @@
 
   h2 {
     @apply
-      text-[20px] tablet:text-[24px] laptop:text-[26px];
+      text-brick text-[20px] tablet:text-[24px] laptop:text-[26px];
   }
 
   p {
@@ -63,14 +68,6 @@
       rounded-lg
       py-1 px-2
       w-fit;
-  }
-
-  .homepage-title {
-    @apply
-      text-[62px]
-      font-title
-      font-bold
-      text-brick;
   }
 
   .page-head {
@@ -133,6 +130,14 @@
           flex flex-wrap items-center gap-x-5 gap-y-3
           mb-5;
       }
+    }
+  }
+
+  .card-strength {
+    @apply w-1/3 rounded-lg p-10;
+
+    h3 {
+      @apply text-brick text-[20px] font-bold mb-5;
     }
   }
 }
