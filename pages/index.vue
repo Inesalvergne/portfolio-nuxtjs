@@ -1,15 +1,15 @@
 <template>
-  <main class="container m-auto">
-    <section class="flex items-center gap-20">
+  <main class="container">
+    <section class="desktop:flex items-center gap-20">
       <img src="@/assets/images/illustrations/strategy.svg" alt="drawing of a woman" width="400">
 
       <div>
-        <div class="tag">
+        <div class="tag mt-10 laptop:mt-0">
           <img src="@/assets/images/green-dot.png" alt="green dot" width="20" class="animate-pulse">
           Available
         </div>
 
-        <h1 class="my-5 text-brick text-[38px] font-semibold leading-[50px]">
+        <h1 class="my-5 text-brick text-[32px] font-semibold leading-[50px] laptop:text-[38px] ">
           Hire a developer who combines <span class="font-normal">technical skills</span> with a <span class="font-normal">marketing edge</span>
         </h1>
         <p class="text-xl">
@@ -25,7 +25,7 @@
     <section>
       <h2>Why hire me for your next project</h2>
 
-      <div class="flex gap-12">
+      <div class="flex flex-col laptop:flex-row gap-12">
         <div class="card-small bg-transparent-pastel-1">
           <h3>Ready to deliver</h3>
           <p>I've hands-on experience working on Ruby on Rails projects.
@@ -51,7 +51,7 @@
     <section>
       <h2>We work together</h2>
 
-      <div class="grid grid-cols-5 gap-14 items-center">
+      <div class="grid grid-cols-3 gap-8 laptop:grid-cols-5 laptop:gap-14 items-center">
         <img src="@/assets/images/client_logos/wally.webp" alt="wally logo" class="h-auto max-h-16 max-w-25">
         <img src="@/assets/images/client_logos/totem.webp" alt="totem logo" class="h-auto max-h-16 max-w-25">
         <img src="@/assets/images/client_logos/lewagon.svg" alt="le wagon logo" class="h-auto max-h-16 max-w-25">
@@ -61,8 +61,7 @@
     </section>
 
     <section>
-      <h2>What people say about our collaboration</h2>
-
+      <h2>What people say about me</h2>
       <TestimonialsCarrousel />
     </section>
   </main>

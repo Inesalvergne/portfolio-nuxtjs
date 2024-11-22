@@ -11,9 +11,9 @@
   }
 
   section {
-    @apply mt-20;
+    @apply mt-10 laptop:mt-20;
 
-    h2 { @apply text-[34px] mb-14 }
+    h2 { @apply text-[34px] mb-10 laptop:mb-14 }
   }
 
   h1,h2,h3,h4 {
@@ -63,10 +63,10 @@
   .tag {
     @apply
       flex items-center gap-2
-      border border-brick
-      text-brick
+      bg-white
       rounded-lg
-      py-1 px-2
+      py-3 px-5
+      shadow-sm
       w-fit;
   }
 
@@ -134,7 +134,7 @@
   }
 
   .card-small {
-    @apply w-2/3 shadow-sm rounded-lg p-10;
+    @apply laptop:selection:w-2/3 shadow-sm rounded-lg p-10;
 
     h3 {
       @apply text-brick text-[20px] font-bold mb-5;

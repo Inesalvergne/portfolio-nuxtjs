@@ -37,10 +37,15 @@
       nextEl: '.next',
       prevEl: '.prev',
     },
-    slidesPerView: 2,
-    spaceBetween: 50,
     loop: true,
-    speed: 1000
+    speed: 1000,
+    slidesPerView: 1,
+    spaceBetween: 50,
+    breakpoints: {
+      1024: {
+        slidesPerView: 2
+      }
+    }
   });
 
   const slides = [

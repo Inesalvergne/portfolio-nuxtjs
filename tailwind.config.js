@@ -25,18 +25,18 @@ module.exports = {
       xl: "40px",
     },
     container: {
+      center: true,
       padding: {
-        DEFAULT: "12rem",
-        sm: "2rem",
-        lg: "4rem",
-        xl: "10rem",
-        "2xl": "6rem",
-      },
+        mobile: "2rem",
+        tablet: "20px",
+        laptop: "12rem"
+      }
     },
     extend: {
       colors: {
         black: "#333333",
         grey: "#b4b4b4",
+        "light-grey": "#d7d7d7",
         maroon: "#800F2F",
         brick: "#AC344B",
         pink: "#D87084",
