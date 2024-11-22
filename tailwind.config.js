@@ -24,9 +24,19 @@ module.exports = {
       lg: "20px",
       xl: "40px",
     },
+    container: {
+      center: true,
+      padding: {
+        mobile: "2rem",
+        tablet: "20px",
+        laptop: "12rem"
+      }
+    },
     extend: {
       colors: {
         black: "#333333",
+        grey: "#b4b4b4",
+        "light-grey": "#d7d7d7",
         maroon: "#800F2F",
         brick: "#AC344B",
         pink: "#D87084",

@@ -14,5 +14,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@vueuse/motion/nuxt"]
+  modules: ["@vueuse/motion/nuxt", "nuxt-swiper"]
 });
