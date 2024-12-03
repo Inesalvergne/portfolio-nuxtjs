@@ -22,7 +22,7 @@
 
   h1 {
     @apply
-      text-[32px] tablet:text-[38px] laptop:text-[46px]
+      text-[32px] tablet:text-[38px]
       leading-10 tablet:leading-normal
       text-gradient
       mx-auto
@@ -72,7 +72,6 @@
 
   .page-head {
     @apply
-      w-4/5 desktop:w-3/5
       text-center
       px-6
       mx-auto my-10;
@@ -85,7 +84,6 @@
 
   .card-service {
     @apply
-      w-4/5 laptop:w-3/5
       mx-auto mb-10
       rounded-lg;
 

@@ -8,7 +8,7 @@
       </p>
     </div>
 
-    <div class="w-4/5 laptop:w-3/5 laptop:flex gap-10 items-center  mx-auto bg-light-pink p-10 rounded-lg" v-motion-pop-visible-once>
+    <div class="laptop:flex gap-10 items-center  mx-auto bg-light-pink p-10 rounded-lg" v-motion-pop-visible-once>
       <img src="@/assets/images/profile-picture-shapes.png" alt="ines alvergne profile picture" width="250" class="mb-10 lapuntop:m-0">
 
       <div>
@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <div class="w-4/5 laptop:w-3/5 mx-auto laptop:flex justify-between mt-10 gap-5">
+    <div class="mx-auto laptop:flex justify-between mt-10 gap-5">
       <ProfileStatisticCard
         v-for="(stat, index) in statistics"
         :key="index"
@@ -36,7 +36,7 @@
     </div>
 
     <div class="bg-transparent-pastel-2 w-full mt-10">
-      <div class="w-4/5 laptop:w-3/5 mx-auto pt-10">
+      <div class="mx-auto pt-10">
         <div class="laptop:flex justify-between">
           <div>
             <h2 class="text-brick">Work Experience</h2>

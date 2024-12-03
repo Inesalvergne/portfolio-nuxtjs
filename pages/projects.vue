@@ -5,7 +5,7 @@
       <p>Bacon ipsum dolor amet pork belly alcatra boudin meatloaf, cow doner beef ribs prosciutto pancetta tri-tip picanha.</p>
     </div>
 
-    <div class="w-4/5 mx-auto flex flex-col gap-12">
+    <div class="flex flex-col gap-12">
       <CardsProject
         v-for="(project, index) in projects"
         :key="index"
@@ -13,6 +13,10 @@
         :description="project.description"
         :role="project.role"
         :image="project.image"
+        :imageWidth = "project.imageWidth"
+        :imageContainerClass="project.imageContainerClass"
+        :tags = "project.tags"
+        :websiteLink = "project.websiteLink"
       />
     </div>
   </div>
@@ -21,23 +25,35 @@
 <script setup>
   import karmaLamaImage from '@/assets/images/mockups/karmalama.png';
   import wallyImage from '@/assets/images/mockups/wally.png';
-  // import kYogaImage from '@/assets/images/mockups/kyoga.png';
+  import kYogaImage from '@/assets/images/mockups/kyoga.png';
 
   const projects = [
     { title: "Karma Lama",
       description: "A web and mobile application to connect non-profit organisations with volunteers. Organisations can create and manage volunteer missions and volunteers can earn points for completing missions.",
       role: "Rails Full-Stack Developer",
-      image: karmaLamaImage
+      image: karmaLamaImage,
+      imageWidth: "400",
+      imageContainerClass: "items-end justify-center",
+      tags: ["Full-Stack", "UI design", "Email creation", "Admin dashboard"],
+      websiteLink: "https://www.karmalama.ch/"
     },
     { title: "Wally",
-      description: "A fractional investment platform to allow individuals and partners to invest in real-estate with no hassle.",
+      description: "A fractional investment platform to allow individuals and partners to invest in real-estate without hassle.",
       role: "Rails Full-Stack Developer",
-      image: wallyImage
+      image: wallyImage,
+      imageWidth: "650",
+      imageContainerClass: "justify-end items-center",
+      tags: ["Fintech", "Full-Stack", "UI Design", "Administrate dashboard"],
+      websiteLink: "https://app.wally.co"
     },
     { title: "K Yoga",
       description: "A platform for yoga enthusiasts to practice everyday with live courses and explore different types of yoga with an extensive video library.",
       role: "Lead Developer",
-      image: "@/assets/images/mockups/karmalama.png"
+      image: kYogaImage,
+      imageWidth: "650",
+      imageContainerClass: "justify-end items-center",
+      tags: ["Full-Stack", "Rebranding", "API", "Custom admin dashboard"],
+      websiteLink: "https://www.k-yoga.fr/"
     },
   ]
 </script>
