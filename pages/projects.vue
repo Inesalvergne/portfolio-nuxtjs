@@ -13,7 +13,7 @@
         :description="project.description"
         :role="project.role"
         :image="project.image"
-        :imageWidth = "project.imageWidth"
+        :imageClass = "project.imageClass"
         :imageContainerClass="project.imageContainerClass"
         :tags = "project.tags"
         :websiteLink = "project.websiteLink"
@@ -32,8 +32,8 @@
       description: "A web and mobile application to connect non-profit organisations with volunteers. Organisations can create and manage volunteer missions and volunteers can earn points for completing missions.",
       role: "Rails Full-Stack Developer",
       image: karmaLamaImage,
-      imageWidth: "400",
-      imageContainerClass: "items-end justify-center",
+      imageClass: "w-[300px] laptop:w-[400px]",
+      imageContainerClass: "items-end justify-center h-[300px] laptop:h-full",
       tags: ["Full-Stack", "UI design", "Email creation", "Admin dashboard"],
       websiteLink: "https://www.karmalama.ch/"
     },
@@ -41,17 +41,17 @@
       description: "A fractional investment platform to allow individuals and partners to invest in real-estate without hassle.",
       role: "Rails Full-Stack Developer",
       image: wallyImage,
-      imageWidth: "650",
-      imageContainerClass: "justify-end items-center",
+      imageClass: "laptop:w-[600px]",
+      imageContainerClass: "justify-end items-center h-[250px] laptop:h-full",
       tags: ["Fintech", "Full-Stack", "UI Design", "Administrate dashboard"],
       websiteLink: "https://app.wally.co"
     },
     { title: "K Yoga",
       description: "A platform for yoga enthusiasts to practice everyday with live courses and explore different types of yoga with an extensive video library.",
-      role: "Lead Developer",
+      role: "Rails Lead Developer",
       image: kYogaImage,
-      imageWidth: "650",
-      imageContainerClass: "justify-end items-center",
+      imageClass: "laptop:w-[600px]",
+      imageContainerClass: "justify-end items-center h-[250px] laptop:h-full",
       tags: ["Full-Stack", "Rebranding", "API", "Custom admin dashboard"],
       websiteLink: "https://www.k-yoga.fr/"
     },

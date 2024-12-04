@@ -1,20 +1,20 @@
 <template>
-  <div class="flex h-[400px]">
-    <div :class="['w-2/4 bg-transparent-pastel-1 rounded-l-lg flex', imageContainerClass]">
-      <img :src="image" alt="mobile mockup of karmalama"  :width="imageWidth">
+  <div class="laptop:flex laptop:h-[400px]">
+    <div :class="['laptop:w-2/4 bg-transparent-pastel-1 rounded-l-lg flex', imageContainerClass]">
+      <img :src="image" alt="mobile mockup of karmalama" :class="imageClass">
     </div>
 
-    <div class="w-2/4 bg-white rounded-r-lg p-12 flex flex-col justify-center">
+    <div class="laptop:w-2/4 bg-white rounded-r-lg p-12 flex flex-col justify-center">
       <h2 class="mb-5">{{ title }}</h2>
       <p class="mb-5">{{ description }}</p>
-      <div class="flex gap-5 text-[12px]">
-        <div  v-for="(tag, index) in tags"
-              :key="index"
-              class="border border-brick text-brick rounded-sm p-2">
-          {{ tag }}
+      <div class="flex flex-col laptop:flex-row gap-5 text-[12px]">
+          <div  v-for="(tag, index) in tags"
+                :key="index"
+                class=" w-fit border border-brick text-brick rounded-sm p-2">
+            {{ tag }}
         </div>
       </div>
-      <div class="flex justify-between border-t border-t-brick mt-10 pt-5">
+      <div class="flex flex-col gap-5 laptop:flex-row laptop:justify-between border-t border-t-brick mt-10 pt-5">
         <p><span class="font-bold">Role:</span> {{ role }}</p>
         <a :href="websiteLink" target="_blank" class="text-brick">Visit website →</a>
       </div>
@@ -29,7 +29,7 @@
       description: String,
       role: String,
       image: String,
-      imageWidth: String,
+      imageClass: String,
       imageContainerClass: String,
       tags: Array,
       websiteLink: String

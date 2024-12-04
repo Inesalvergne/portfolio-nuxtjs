@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <main>
     <div class="page-head">
       <h1>Hi, I'm Ines</h1>
       <p>
@@ -35,9 +35,9 @@
       />
     </div>
 
-    <div class="bg-transparent-pastel-2 w-full mt-10">
+    <div class="absolute left-0 right-0 w-screen bg-transparent-pastel-2 mt-10">
       <div class="mx-auto pt-10">
-        <div class="laptop:flex justify-between">
+        <div class="laptop:flex justify-center gap-32 px-10 laptop:p-0 ">
           <div>
             <h2 class="text-brick">Work Experience</h2>
             <ProfileExperienceItem
@@ -62,7 +62,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </main>
 </template>
 
 <script setup>
