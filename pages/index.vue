@@ -1,6 +1,6 @@
 <template>
-  <main class="container">
-    <section class="desktop:flex items-center gap-20">
+  <main>
+    <section class="laptop:flex items-center gap-20">
       <img src="@/assets/images/illustrations/strategy.svg" alt="drawing of a woman" width="400">
 
       <div>

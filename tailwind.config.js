@@ -13,7 +13,7 @@ module.exports = {
       mobile: "375px",
       tablet: "640px",
       laptop: "1024px",
-      desktop: "1400px",
+      desktop: "1500px",
     },
     fontFamily: {
       title: ["Karla", "sans-serif"],

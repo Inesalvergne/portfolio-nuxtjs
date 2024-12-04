@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <main>
     <div class="page-head">
       <h1>Hi, I'm Ines</h1>
       <p>
@@ -8,7 +8,7 @@
       </p>
     </div>
 
-    <div class="w-4/5 laptop:w-3/5 laptop:flex gap-10 items-center  mx-auto bg-light-pink p-10 rounded-lg" v-motion-pop-visible-once>
+    <div class="laptop:flex gap-10 items-center  mx-auto bg-light-pink p-10 rounded-lg" v-motion-pop-visible-once>
       <img src="@/assets/images/profile-picture-shapes.png" alt="ines alvergne profile picture" width="250" class="mb-10 lapuntop:m-0">
 
       <div>
@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <div class="w-4/5 laptop:w-3/5 mx-auto laptop:flex justify-between mt-10 gap-5">
+    <div class="mx-auto laptop:flex justify-between mt-10 gap-5">
       <ProfileStatisticCard
         v-for="(stat, index) in statistics"
         :key="index"
@@ -35,9 +35,9 @@
       />
     </div>
 
-    <div class="bg-transparent-pastel-2 w-full mt-10">
-      <div class="w-4/5 laptop:w-3/5 mx-auto pt-10">
-        <div class="laptop:flex justify-between">
+    <div class="absolute left-0 right-0 w-screen bg-transparent-pastel-2 mt-10">
+      <div class="mx-auto pt-10">
+        <div class="laptop:flex justify-center gap-32 px-10 laptop:p-0 ">
           <div>
             <h2 class="text-brick">Work Experience</h2>
             <ProfileExperienceItem
@@ -62,7 +62,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </main>
 </template>
 
 <script setup>
