@@ -1,5 +1,5 @@
 <template>
-  <main class="bg-light-pink laptop:rounded-t-[60px] mt-20">
+  <main class="bg-light-pink laptop:rounded-t-[60px] shadow-sm mt-20">
     <div class="w-11/12 laptop:w-9/12 desktop:w-7/12 mx-auto">
       <div class="h-[200px] py-10">
         <div class="flex justify-between items-start">
