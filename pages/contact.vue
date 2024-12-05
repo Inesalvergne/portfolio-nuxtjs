@@ -2,5 +2,7 @@
   <div class="page-head">
     <h1>Contact me</h1>
     <p>Bacon ipsum dolor amet pork belly alcatra boudin meatloaf, cow doner beef ribs prosciutto pancetta tri-tip picanha.</p>
+
+    <ContactForm />
   </div>
 </template>
