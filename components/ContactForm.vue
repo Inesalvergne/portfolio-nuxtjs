@@ -1,7 +1,8 @@
 <template>
   <div class="laptop:w-3/5 bg-white shadow border border-light-pink rounded-lg p-8 mt-10 mx-auto">
     <div id="contact-form-container">
-      <form name="contact" method="POST" netlify>
+      <form @submit="handleSubmit" name="contact" method="POST" netlify netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact" />
         <div class="">
           <div class="text-left">
             <label for="name">Name</label>
@@ -63,6 +64,8 @@
 import { ref } from "vue";
 
 export default {
+  target: 'static',
+  ssr: true,
   setup() {
     const submissionMessage = ref("");
     const messageClass = ref("");
