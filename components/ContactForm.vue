@@ -1,7 +1,7 @@
 <template>
   <div class="laptop:w-3/5 bg-white shadow border border-light-pink rounded-lg p-8 mt-10 mx-auto">
     <div id="contact-form-container">
-      <form @submit="handleSubmit" name="contact" method="POST" netlify>
+      <form name="contact" method="POST" netlify>
         <div class="">
           <div class="text-left">
             <label for="name">Name</label>
