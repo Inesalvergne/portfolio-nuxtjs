@@ -19,7 +19,7 @@
                 <IconsLogosLinkedinSquare />
               </a>
             </div>
-            <!-- <CarbonBadge /> -->
+            <CarbonBadge />
           </div>
         </div>
       </div>
