@@ -35,9 +35,9 @@
       />
     </div>
 
-    <div class="absolute left-0 right-0 w-screen bg-transparent-pastel-2 mt-10">
+    <div class="mt-10">
       <div class="mx-auto pt-10">
-        <div class="laptop:flex justify-center gap-32 px-10 laptop:p-0 ">
+        <div class="laptop:flex justify-between px-10 laptop:p-0 ">
           <div>
             <h2 class="text-brick">Work Experience</h2>
             <ProfileExperienceItem
