@@ -71,54 +71,6 @@
       w-fit;
   }
 
-  .card-service {
-    @apply
-      mx-auto mb-10
-      rounded-lg;
-
-    .content {
-      @apply
-        px-10 pt-10 pb-5;
-    }
-
-    h2 {
-      @apply
-        text-[26px] tablet:text-[30px] laptop:text-[34px]
-        leading-8 laptop:leading-10
-        font-bold
-        font-title
-        text-brick
-        mb-5;
-    }
-
-    p {
-      @apply
-        text-[16px] tablet:text-[18px] laptop:text-[20px]
-        mb-2;
-    }
-
-    .shape { @apply mb-10; }
-
-    .tools-container {
-      @apply
-        mix-blend-darken
-        px-10 py-3
-        rounded-b-lg;
-
-      p {
-        @apply
-          text-pink
-          font-bold
-          mb-4;
-      }
-
-      .tools-list {
-        @apply
-          flex flex-wrap items-center gap-x-5 gap-y-3
-          mb-5;
-      }
-    }
-  }
 
   .card-small {
     @apply laptop:selection:w-2/3 shadow-sm rounded-lg p-10;
