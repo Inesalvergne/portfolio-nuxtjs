@@ -1,12 +1,10 @@
 <template>
   <main>
-    <div class="page-head">
-      <h1>Hi, I'm Ines</h1>
-      <p>
-        I’m a Freelance Web Developer with 7 years of experience in the tech industry, including 2 years specializing in Ruby on Rails projects.
-        Learn about my journey getting here.
-      </p>
-    </div>
+    <Header
+      title="Hi Im Ines"
+      description= "I’m a Freelance Web Developer with 7 years of experience in the tech industry,
+                    including 2 years specializing in Ruby on Rails projects. Learn about my journey getting here."
+    />
 
     <div class="laptop:flex gap-10 items-center  mx-auto bg-light-pink p-10 rounded-lg" v-motion-pop-visible-once>
       <img src="@/assets/images/profile-picture-shapes.png" alt="ines alvergne profile picture" width="250" class="mb-10 lapuntop:m-0">

@@ -1,9 +1,10 @@
 <template>
   <div>
-    <div class="page-head">
-      <h1>Discover a few projects I've worked on</h1>
-      <p>Here's a showcase of projects I've enjoyed working on. Each of them has been an opportunity to learn and grow as a developer and collaborate with inspiring people.</p>
-    </div>
+    <Header
+      title="Discover a few projects I've worked on"
+      description="Here's a showcase of projects I've enjoyed working on.
+                  Each of them has been an opportunity to learn and grow as a developer and collaborate with inspiring people."
+    />
 
     <div class="flex flex-col gap-12">
       <CardsProject

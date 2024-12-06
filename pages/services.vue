@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="page-head">
-      <h1>Let's build something great together</h1>
-      <p>Whether your want to start from scratch or add new features to your project, I'm here to help.</p>
-      <p>You can hire me as a solo dev or I can join your team for one or all of the services below.</p>
-    </div>
+    <Header
+      title="Let's build something great together"
+      description="Whether your want to start from scratch or add new features to your project, I'm here to help.
+                  You can hire me as a solo dev or I can join your team for one or all of the services below."
+    />
 
     <!-- Scopes & prototypes -->
     <div class="card-service bg-transparent-pastel-1" v-motion-pop-visible-once>

@@ -24,7 +24,8 @@
     @apply
       text-[28px] tablet:text-[38px]
       leading-10 tablet:leading-normal
-      text-gradient
+      w-fit
+      text-brick
       mx-auto
       mb-5;
   }
@@ -68,18 +69,6 @@
       py-3 px-5
       shadow-sm
       w-fit;
-  }
-
-  .page-head {
-    @apply
-      text-center
-      px-6
-      mx-auto my-10;
-    p {
-      @apply
-        text-[18px]
-        font-medium;
-    }
   }
 
   .card-service {
