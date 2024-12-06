@@ -5,7 +5,7 @@
         <div class="flex justify-between items-start">
           <div>
             <img src="@/assets/images/logo_ines.png" alt="logo ines alvergne" width="100">
-            <p class="mt-5 text-pink">2024 Ines Alvergne EI </p>
+            <p class="mt-5 text-pink">{{ year }} Ines Alvergne EI </p>
           </div>
           <div>
             <div class="flex items-center justify-end gap-3 mb-5">
@@ -28,4 +28,5 @@
 </template>
 
 <script setup>
+  const year = new Date().getFullYear();
 </script>

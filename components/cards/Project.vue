@@ -1,16 +1,16 @@
 <template>
-  <div class="laptop:flex laptop:h-[400px]">
+  <div class="laptop:flex laptop:h-[400px] shadow-sm rounded-lg" v-motion-slide-visible-once-bottom>
     <div :class="['laptop:w-2/4 bg-transparent-pastel-1 rounded-l-lg flex', imageContainerClass]">
       <img :src="image" alt="mobile mockup of karmalama" :class="imageClass">
     </div>
 
     <div class="laptop:w-2/4 bg-white rounded-r-lg p-12 flex flex-col justify-center">
-      <h2 class="mb-5">{{ title }}</h2>
+      <h2 class="mb-5 text-[26px] tablet:text-[30px] leading-8 laptop:leading-10 font-bold">{{ title }}</h2>
       <p class="mb-5">{{ description }}</p>
       <div class="flex flex-col laptop:flex-row gap-5 text-[12px]">
           <div  v-for="(tag, index) in tags"
                 :key="index"
-                class=" w-fit border border-brick text-brick rounded-sm p-2">
+                class="w-fit border border-brick text-brick rounded-sm p-2">
             {{ tag }}
         </div>
       </div>
