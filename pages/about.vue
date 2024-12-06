@@ -66,6 +66,11 @@
 </template>
 
 <script setup>
+  definePageMeta({
+    title: "About me",
+    description: "Discover why I’m the right choice for your next web project. With expertise in Ruby on Rails and a marketing background, I deliver results-driven, user-focused web solutions."
+  })
+
   const statistics = [
     { value: '7+', description: 'years of experience in the tech industry', bgColor: 'bg-transparent-pastel-1' },
     { value: '6', description: 'happy clients with Rails apps in production', bgColor: 'bg-transparent-pastel-2' },

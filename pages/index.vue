@@ -66,3 +66,10 @@
     </section>
   </main>
 </template>
+
+<script setup lang="ts">
+  definePageMeta({
+    title: "Home",
+    description: "Hire a developer who combines technical expertise with marketing insights. I can help you turn ideas into web products that drive traffic. Let’s work together!"
+  })
+</script>

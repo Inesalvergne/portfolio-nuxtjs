@@ -10,3 +10,15 @@
     <Footer />
   </main>
 </template>
+
+<script setup lang="ts">
+  const route = useRoute()
+
+  useSeoMeta({
+    title: `${route.meta.title} | Ines Alvergne`,
+    description: `${route.meta.description}`,
+    ogTitle: 'Ines Alvergne',
+    ogType: 'website',
+    ogImage: 'https://inesalvergne.com/og-image.png',
+  })
+</script>
