@@ -10,3 +10,17 @@
     <Footer />
   </main>
 </template>
+
+<script setup lang="ts">
+  const route = useRoute()
+
+  useHead({
+    title: `${route.meta.title} | Ines Alvergne`,
+    meta: [
+      { name: 'description', content: `${route.meta.title}` },
+      { property: 'og:title', content: 'Ines Alvergne' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:image', content: 'https://inesalvergne.com/og-image.png' },
+    ]
+  })
+</script>

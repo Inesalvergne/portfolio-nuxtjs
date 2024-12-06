@@ -120,3 +120,10 @@
     </div>
   </div>
 </template>
+
+<script setup>
+  definePageMeta({
+    title: "Services",
+    description: "Looking for a developer who gets your vision? I design and build websites to help grow your business. Let's make something great together!"
+  })
+</script>

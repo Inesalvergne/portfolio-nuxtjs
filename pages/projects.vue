@@ -27,6 +27,11 @@
   import wallyImage from '@/assets/images/mockups/wally.png';
   import kYogaImage from '@/assets/images/mockups/kyoga.png';
 
+  definePageMeta({
+    title: "Projects",
+    description: "Take a look at the projects I’ve worked on! From crafting intuitive UI/UX designs to developing solid Ruby on Rails backends, here’s how I’ve turned ideas into web products."
+  })
+
   const projects = [
     { title: "Karma Lama",
       description: "A web and mobile application to connect non-profit organisations with volunteers. Organisations can create and manage volunteer missions and volunteers can earn points for completing missions.",
