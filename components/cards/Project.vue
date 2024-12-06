@@ -5,7 +5,7 @@
     </div>
 
     <div class="laptop:w-2/4 bg-white rounded-r-lg p-12 flex flex-col justify-center">
-      <h2 class="mb-5">{{ title }}</h2>
+      <h2 class="mb-5 text-[26px] tablet:text-[30px] leading-8 laptop:leading-10 font-bold">{{ title }}</h2>
       <p class="mb-5">{{ description }}</p>
       <div class="flex flex-col laptop:flex-row gap-5 text-[12px]">
           <div  v-for="(tag, index) in tags"
