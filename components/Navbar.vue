@@ -40,6 +40,12 @@
   </div>
 </template>
 
+<style>
+  .router-link-exact-active {
+    @apply text-gradient font-semibold;
+  }
+</style>
+
 <script setup>
   import { ref } from 'vue'
 

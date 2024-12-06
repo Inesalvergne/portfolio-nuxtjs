@@ -1,5 +1,5 @@
 <template>
-  <div class="laptop:flex laptop:h-[400px]">
+  <div class="laptop:flex laptop:h-[400px] shadow-sm rounded-lg" v-motion-slide-visible-once-bottom>
     <div :class="['laptop:w-2/4 bg-transparent-pastel-1 rounded-l-lg flex', imageContainerClass]">
       <img :src="image" alt="mobile mockup of karmalama" :class="imageClass">
     </div>
@@ -10,7 +10,7 @@
       <div class="flex flex-col laptop:flex-row gap-5 text-[12px]">
           <div  v-for="(tag, index) in tags"
                 :key="index"
-                class=" w-fit border border-brick text-brick rounded-sm p-2">
+                class="w-fit border border-brick text-brick rounded-sm p-2">
             {{ tag }}
         </div>
       </div>

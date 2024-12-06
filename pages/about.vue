@@ -9,11 +9,11 @@
     <CardsInfoWithImage
       :image_link=profilePicture
       image_alt="ines alvergne profile picture"
-      title="My diverse career path has shaped the way I approach web development today."
+      title="My diverse career path adds a twist to my work"
       description=
         "I graduated in Political Science, then moved into marketing, and eventually discovered my passion for web products and coding.
-        This unique blend of technical skills and business insights helps me craft solutions that connect with their audience, meet user needs, and achieve business goals.
-        I'll bring adaptability, curiosity, and a creative problem-solving approach to your projects. Let’s talk!"
+        This unique blend of technical skills and business insights helps me create solutions that connect with your audience, meet user needs, and achieve business goals.
+        I'll bring a unique perspective, curiosity, and drive to your projects. Let’s talk!"
     />
 
     <div class="mx-auto laptop:flex justify-between mt-10 gap-5">
@@ -67,7 +67,7 @@
   const kpis = [
     { value: '7+', description: 'years of experience in the tech industry', bgColor: 'bg-transparent-pastel-1' },
     { value: '6', description: 'happy clients with Rails apps in production', bgColor: 'bg-transparent-pastel-2' },
-    { value: '3', description: 'languages I can work with 🇫🇷 🇬🇧 🇪🇸', bgColor: 'bg-transparent-pastel-3' },
+    { value: '3', description: "languages I'm fluent in: FR 🇫🇷, EN 🇬🇧, ES 🇪🇸", bgColor: 'bg-transparent-pastel-3' },
   ]
 
   const workItems = [

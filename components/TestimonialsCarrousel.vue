@@ -4,14 +4,14 @@
       <swiper-slide
         v-for="(slide, idx) in slides"
         :key="idx"
-        class="card-small bg-white h-auto">
+        class="laptop:w-1/3 shadow-sm rounded-lg p-10 bg-white h-auto">
         <div class="h-3/4">
           <p>{{ slide.quote }}</p>
         </div>
 
         <div class="mt-3">
-          <p class="font-semibold">{{ slide.name }}</p>
-          <p class="text-grey">{{ slide.role }}</p>
+          <p class="font-semibold text-brick">{{ slide.name }}</p>
+          <p class="text-pink">{{ slide.role }}</p>
         </div>
       </swiper-slide>
     </swiper-container>

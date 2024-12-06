@@ -1,10 +1,10 @@
 <template>
   <main>
-    <section class="laptop:flex items-center gap-20">
+    <section class="laptop:flex items-center gap-20" v-motion-slide-visible-once-bottom>
       <img src="@/assets/images/illustrations/strategy.svg" alt="drawing of a woman" width="330">
 
       <div>
-        <div class="tag mt-10 laptop:mt-0">
+        <div class="tag bg-white  flex items-center gap-2 rounded-lg py-3 px-5 shadow-sm w-fit mt-10 laptop:mt-0">
           <img src="@/assets/images/green-dot.png" alt="green dot" width="20" class="animate-pulse">
           Available
         </div>
@@ -12,10 +12,7 @@
         <h1 class="my-5 text-brick text-[32px] font-semibold leading-[50px] laptop:text-[38px] ">
           Hire a developer who combines <span class="text-gradient">technical skills</span> with <span class="text-gradient">a marketing edge</span>
         </h1>
-        <p class="text-xl">
-          I help entrepreneurs, startups, and SMEs to convert their ideas into web products.
-          Let's build someting together!
-        </p>
+        <p class="text-xl">I help entrepreneurs, startups, and SMEs to convert their ideas into web products. Let's work together!</p>
         <NuxtLink to="/services" class="btn-primary mt-5">
           Learn about my services
         </NuxtLink>
@@ -43,11 +40,11 @@
       <h2>We work together</h2>
 
       <div class="grid grid-cols-3 gap-8 laptop:grid-cols-5 laptop:gap-14 items-center">
-        <img src="@/assets/images/client_logos/wally.webp" alt="wally logo" class="h-auto max-h-16 max-w-25">
-        <img src="@/assets/images/client_logos/totem.webp" alt="totem logo" class="h-auto max-h-16 max-w-25">
-        <img src="@/assets/images/client_logos/lewagon.svg" alt="le wagon logo" class="h-auto max-h-16 max-w-25">
-        <img src="@/assets/images/client_logos/karma_lama.png" alt="karma lama logo" class="h-auto max-h-16 max-w-25">
-        <img src="@/assets/images/client_logos/k-yoga.webp" alt="k-yoga logo" class="h-auto max-h-16 max-w-25">
+        <img src="@/assets/images/client_logos/wally.webp" alt="wally logo" class="h-auto max-h-16 max-w-25" v-motion-pop-visible-once>
+        <img src="@/assets/images/client_logos/totem.webp" alt="totem logo" class="h-auto max-h-16 max-w-25" v-motion-pop-visible-once>
+        <img src="@/assets/images/client_logos/lewagon.svg" alt="le wagon logo" class="h-auto max-h-16 max-w-25" v-motion-pop-visible-once>
+        <img src="@/assets/images/client_logos/karma_lama.png" alt="karma lama logo" class="h-auto max-h-16 max-w-25" v-motion-pop-visible-once>
+        <img src="@/assets/images/client_logos/k-yoga.webp" alt="k-yoga logo" class="h-auto max-h-16 max-w-25" v-motion-pop-visible-once>
       </div>
     </section>
 
@@ -67,15 +64,15 @@
   const cards = [
     {
       title: "Ready to deliver",
-      description: "I have hands-on experience working on Ruby on Rails projects. I can either join your team or we can start your new project together."
+      description: "I have hands-on experience working on tech projects. I can either join your team or we can start a new project together."
     },
     {
       title: "More than just code",
-      description: "With a background in marketing, I design products that connect with users and achieve your business goals."
+      description: "With a background in marketing, I design products for various industries that connect with users and achieve business goals."
     },
     {
       title: "Driven and curious",
-      description: "I've pivot careers twice. I'm always eager to tackle new challenges and learn."
+      description: "I've pivot careers twice. I'm always eager to take on a challenge, test new technologies and approaches, and learn. "
     }
   ]
 </script>
