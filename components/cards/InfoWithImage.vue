@@ -4,7 +4,7 @@
 
     <div>
       <h2 class="font-semibold text-[24px] mb-5">{{ title }}</h2>
-      <p class="mb-5">{{ description }}</p>
+      <p>{{ description }}</p>
     </div>
   </div>
 </template>

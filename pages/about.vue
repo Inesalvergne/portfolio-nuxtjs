@@ -7,7 +7,7 @@
     />
 
     <CardsInfoWithImage
-      :image_link=profilePicture
+      :image_link=headshot
       image_alt="ines alvergne profile picture"
       title="My diverse career path adds a twist to my work"
       description=
@@ -57,7 +57,7 @@
 </template>
 
 <script setup>
-  import profilePicture from '@/assets/images/profile-picture-shapes.png';
+  import headshot from '@/assets/images/headshot.png';
 
   definePageMeta({
     title: "About me",
