@@ -27,6 +27,7 @@
   import karmaLamaImage from '@/assets/images/mockups/karmalama.png';
   import wallyImage from '@/assets/images/mockups/wally.png';
   import kYogaImage from '@/assets/images/mockups/kyoga.png';
+  import portfolioImage from '@/assets/images/mockups/portfolio.png';
 
   definePageMeta({
     title: "Projects",
@@ -40,26 +41,35 @@
       image: karmaLamaImage,
       imageClass: "w-[300px] laptop:w-[400px]",
       imageContainerClass: "items-end justify-center h-[300px] laptop:h-full",
-      tags: ["Full-Stack", "UI design", "Email creation", "Admin dashboard"],
+      tags: ["Full-Stack", "UI design", "Marketing assets", "Admin dashboard"],
       websiteLink: "https://www.karmalama.ch/"
     },
-    { title: "Wally",
-      description: "A fractional investment platform to allow individuals and partners to invest in real-estate without hassle.",
-      role: "Rails Full-Stack Developer",
-      image: wallyImage,
-      imageClass: "laptop:w-[600px]",
-      imageContainerClass: "justify-end items-center h-[250px] laptop:h-full",
-      tags: ["Fintech", "Full-Stack", "UI Design", "Administrate dashboard"],
-      websiteLink: "https://app.wally.co"
-    },
+    // { title: "Wally",
+    //   description: "A fractional investment platform to allow individuals and partners to invest in real-estate without hassle.",
+    //   role: "Rails Full-Stack Developer",
+    //   image: wallyImage,
+    //   imageClass: "laptop:w-[600px]",
+    //   imageContainerClass: "justify-end items-center h-[250px] laptop:h-full",
+    //   tags: ["Fintech", "Full-Stack", "UI Design", "Administrate dashboard"],
+    //   websiteLink: "https://app.wally.co"
+    // },
     { title: "K Yoga",
       description: "A platform for yoga enthusiasts to practice everyday with live courses and explore different types of yoga with an extensive video library.",
       role: "Rails Lead Developer",
       image: kYogaImage,
       imageClass: "laptop:w-[600px]",
       imageContainerClass: "justify-end items-center h-[250px] laptop:h-full",
-      tags: ["Full-Stack", "Rebranding", "API", "Custom admin dashboard"],
+      tags: ["Full-Stack", "Rebranding", "APIs", "Admin dashboard"],
       websiteLink: "https://www.k-yoga.fr/"
+    },
+    { title: "Portfolio",
+      description: "A personal portfolio website to showcase my skills and projects. And also a great learning opportunity to experiment with a new framework: Nuxt 3.",
+      role: "Front-End Developer",
+      image: portfolioImage,
+      imageClass: "laptop:w-[600px]",
+      imageContainerClass: "justify-end items-center h-[250px] laptop:h-full",
+      tags: ["Front-End", "Nuxt", "Vue.js", "Branding", "UI Design"],
+      websiteLink: "https://www.inesalvergne.com/"
     },
   ]
 </script>

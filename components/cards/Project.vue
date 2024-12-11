@@ -1,6 +1,6 @@
 <template>
   <div class="laptop:flex laptop:h-[400px] shadow-sm rounded-lg" v-motion-slide-visible-once-bottom>
-    <div :class="['laptop:w-2/4 bg-transparent-pastel-1 rounded-l-lg flex', imageContainerClass]">
+    <div :class="['laptop:w-2/4 bg-transparent-pastel-3 rounded-l-lg flex', imageContainerClass]">
       <img :src="image" alt="mobile mockup of karmalama" :class="imageClass">
     </div>
 
