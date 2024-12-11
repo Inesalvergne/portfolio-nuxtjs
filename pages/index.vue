@@ -1,6 +1,8 @@
 <template>
   <main>
     <section class="laptop:flex items-center gap-20" v-motion-slide-visible-once-bottom>
+
+
       <img src="@/assets/images/illustrations/strategy.svg" alt="drawing of a woman" width="330">
 
       <div>
@@ -56,6 +58,7 @@
 </template>
 
 <script setup lang="ts">
+
   definePageMeta({
     title: "Home",
     description: "Hire a developer who combines technical expertise with marketing insights. I can help you turn ideas into web products that drive traffic. Let’s work together!"

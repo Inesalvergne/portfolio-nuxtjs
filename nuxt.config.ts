@@ -4,12 +4,10 @@ import { resolve } from "path";
 export default defineNuxtConfig({
   app: {
     head: {
-      charset: 'utf-8',
-      viewport: 'width=device-width, initial-scale=1',
-      link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-      ]
-    }
+      charset: "utf-8",
+      viewport: "width=device-width, initial-scale=1",
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    },
   },
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
@@ -23,5 +21,12 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@vueuse/motion/nuxt", "nuxt-swiper"]
+  modules: ["@vueuse/motion/nuxt", "nuxt-swiper", "@nuxtjs/i18n"],
+  i18n: {
+    vueI18n: "./i18n.config.ts",
+    locales: ["en", "fr"],
+    strategy: "prefix",
+    defaultLocale: "en",
+    detectBrowserLanguage: false
+  },
 });

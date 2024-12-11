@@ -7,10 +7,10 @@
           <img src="@/assets/images/logo_ia.png" alt="logo ines alvergne" width="40" height="40">
         </NuxtLink>
         <NuxtLink
+          :to="localePath(`${link.to}`)"
           v-for="(link, index) in navLinks"
           :key="index"
-          :to="link.to"
-          class="text-[20px] hover:text-gradient">
+          class="text-[20px] uppercase hover:text-gradient">
           {{ link.text }}
         </NuxtLink>
       </div>
@@ -48,12 +48,16 @@
 
 <script setup>
   import { ref } from 'vue'
+  import { useI18n } from 'vue-i18n';
+
+  const localePath = useLocalePath()
+  const { t } = useI18n();
 
   const navLinks = [
-    { text: 'ABOUT ME', to: '/about' },
-    { text: 'SERVICES', to: '/services' },
-    { text: 'PROJECTS', to: '/projects' },
-    { text: 'GET IN TOUCH', to: '/contact' },
+    { text: t('nav_about'), to: '/about' },
+    { text: t('nav_services'), to: '/services' },
+    { text: t('nav_projects'), to: '/projects' },
+    { text: t('nav_contact'), to: '/contact' },
   ]
 
   const showMenu = ref(false)
