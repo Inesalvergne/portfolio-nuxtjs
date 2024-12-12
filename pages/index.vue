@@ -40,7 +40,7 @@
       <h2>We work together</h2>
 
       <div class="grid grid-cols-3 gap-8 laptop:grid-cols-5 laptop:gap-14 items-center">
-        <img src="@/assets/images/client_logos/wally.webp" alt="wally logo" class="h-auto max-h-16 max-w-25" v-motion-pop-visible-once>
+        <!-- <img src="@/assets/images/client_logos/wally.webp" alt="wally logo" class="h-auto max-h-16 max-w-25" v-motion-pop-visible-once> -->
         <img src="@/assets/images/client_logos/totem.webp" alt="totem logo" class="h-auto max-h-16 max-w-25" v-motion-pop-visible-once>
         <img src="@/assets/images/client_logos/lewagon.svg" alt="le wagon logo" class="h-auto max-h-16 max-w-25" v-motion-pop-visible-once>
         <img src="@/assets/images/client_logos/karma_lama.png" alt="karma lama logo" class="h-auto max-h-16 max-w-25" v-motion-pop-visible-once>
