@@ -1,7 +1,7 @@
 <template>
   <main>
     <Header
-      title="Hi, I'm Ines"
+      :title= "$t('about.title')"
       description= "I’m a Freelance Web Developer with 7 years of experience in the tech industry,
                     including 2 years specializing in Ruby on Rails projects. Learn about my journey getting here."
     />

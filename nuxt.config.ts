@@ -24,9 +24,14 @@ export default defineNuxtConfig({
   modules: ["@vueuse/motion/nuxt", "nuxt-swiper", "@nuxtjs/i18n"],
   i18n: {
     vueI18n: "./i18n.config.ts",
-    locales: ["en", "fr"],
-    strategy: "prefix",
     defaultLocale: "en",
-    detectBrowserLanguage: false
+    detectBrowserLanguage: false,
+    langDir: "locales/",
+    lazy: true,
+    locales: [
+      { code: "en", dir: "ltr", files: ['navbar.json'] },
+      { code: "fr", dir: "ltr",files: ['navbar.json'] },
+    ],
+    strategy: "prefix",
   },
 });

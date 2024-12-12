@@ -11,7 +11,7 @@
           v-for="(link, index) in navLinks"
           :key="index"
           class="text-[20px] uppercase hover:text-gradient">
-          {{ link.text }}
+          {{ $t(link.text) }}
         </NuxtLink>
       </div>
     </div>
@@ -48,16 +48,14 @@
 
 <script setup>
   import { ref } from 'vue'
-  import { useI18n } from 'vue-i18n';
 
   const localePath = useLocalePath()
-  const { t } = useI18n();
 
   const navLinks = [
-    { text: t('nav_about'), to: '/about' },
-    { text: t('nav_services'), to: '/services' },
-    { text: t('nav_projects'), to: '/projects' },
-    { text: t('nav_contact'), to: '/contact' },
+    { text: 'nav_about', to: '/about' },
+    { text: 'nav_services', to: '/services' },
+    { text: 'nav_projects', to: '/projects' },
+    { text: 'nav_contact', to: '/contact' },
   ]
 
   const showMenu = ref(false)
