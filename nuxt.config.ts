@@ -29,8 +29,8 @@ export default defineNuxtConfig({
     langDir: "locales",
     lazy: true,
     locales: [
-      { code: "en", iso: "en-US", files: ['en/nav.json', 'en/about.json'] },
-      { code: "fr", iso: "fr-FR", files: ['fr/nav.json', 'fr/about.json'] },
+      { code: "en", iso: "en-US", files: ['en/nav.json', 'en/about.json', 'en/services.json'] },
+      { code: "fr", iso: "fr-FR", files: ['fr/nav.json', 'fr/about.json', 'fr/services.json'] },
     ],
     strategy: "prefix",
   },
