@@ -33,7 +33,7 @@
           :to="link.to"
           @click="closeMenu()"
           class="hover:text-gradient">
-          {{ link.text }}
+          {{ $t(link.text) }}
         </NuxtLink>
       </div>
     </div>
@@ -52,10 +52,10 @@
   const localePath = useLocalePath()
 
   const navLinks = [
-    { text: 'nav_about', to: '/about' },
-    { text: 'nav_services', to: '/services' },
-    { text: 'nav_projects', to: '/projects' },
-    { text: 'nav_contact', to: '/contact' },
+    { text: 'nav.about', to: '/about' },
+    { text: 'nav.services', to: '/services' },
+    { text: 'nav.projects', to: '/projects' },
+    { text: 'nav.contact', to: '/contact' },
   ]
 
   const showMenu = ref(false)
