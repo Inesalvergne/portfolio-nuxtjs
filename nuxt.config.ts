@@ -39,6 +39,7 @@ export default defineNuxtConfig({
           "en/services.json",
           "en/contact.json",
           "en/home.json",
+          "en/projects.json",
         ],
       },
       {
@@ -51,6 +52,7 @@ export default defineNuxtConfig({
           "fr/services.json",
           "fr/contact.json",
           "fr/home.json",
+          "fr/projects.json",
         ],
       },
     ],

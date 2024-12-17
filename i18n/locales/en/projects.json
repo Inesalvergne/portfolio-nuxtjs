@@ -1,0 +1,13 @@
+{
+  "projects": {
+    "header": {
+      "title": "Discover a few projects I've worked on",
+      "description": "Here's a showcase of projects I've enjoyed working on. Each of them has been an opportunity to learn and grow as a developer and collaborate with inspiring people."
+    },
+    "cards": {
+      "karma_lama": {
+        "description": "A web and mobile application to connect non-profit organisations with volunteers. Organisations can create and manage volunteer missions and volunteers can earn points for completing missions.",
+     }
+    }
+  }
+}
