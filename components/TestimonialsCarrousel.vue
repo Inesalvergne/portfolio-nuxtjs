@@ -2,16 +2,16 @@
   <div>
     <swiper-container ref="swiperInstance" class="" :init="false">
       <swiper-slide
-        v-for="(slide, idx) in slides"
+        v-for="(slide, idx) in tm('home.testimonials.slides')"
         :key="idx"
         class="laptop:w-1/3 shadow-sm rounded-lg p-10 bg-white h-auto">
         <div class="h-3/4">
-          <p>{{ slide.quote }}</p>
+          <p>{{ rt(slide.quote) }}</p>
         </div>
 
         <div class="mt-3">
-          <p class="font-semibold text-brick">{{ slide.name }}</p>
-          <p class="text-pink">{{ slide.role }}</p>
+          <p class="font-semibold text-brick">{{ rt(slide.name) }}</p>
+          <p class="text-pink">{{ rt(slide.role) }}</p>
         </div>
       </swiper-slide>
     </swiper-container>
@@ -29,6 +29,9 @@
 
 <script setup>
   import { ref } from 'vue';
+  import { useI18n } from 'vue-i18n';
+
+  const { t, tm, rt } = useI18n();
 
   const swiperInstance = ref(null);
 

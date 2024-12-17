@@ -1,0 +1,60 @@
+{
+  "home": {
+    "header": {
+      "available": "Disponible",
+      "title": "Embauchez une développeuse qui combine <span class='text-gradient'>des compétences techniques</span> avec <span class='text-gradient'>une démarche marketing</span>",
+      "description": "J'aide les entrepreneurs, les startups et les PME à convertir leurs idées en produits web. Travaillons ensemble !",
+      "cta": "Découvrir mes services"
+    },
+    "strengths": {
+      "title": "Pourquoi me confier votre projet",
+      "cards": [
+        {
+          "title": "Prête à livrer",
+          "description": "J'ai travaillé sur des projets Ruby on Rails pour diverses industries. Je peux me joindre à votre équipe ou nous pouvons commencer un nouveau projet ensemble."
+        },
+        {
+          "title": "Plus que du code",
+          "description": "Grâce à mon expérience marketing, je conçois des produits web qui s'adaptent aux besoins des utilisateurs et aux objectifs de l'entreprise."
+        },
+        {
+          "title": "Dynamique et curieuse",
+          "description": "J'ai changé deux fois de carrière. Je suis toujours prête à relever un défi, tester de nouvelles technologies et apprendre de nouvelles pratiques."
+        }
+      ]
+    },
+    "clients": {
+      "title": "On travaille ensemble"
+    },
+    "testimonials": {
+      "title": "Le point de vue de mes collaborateurs",
+      "slides": [
+        {
+          "quote": "C'est un vrai plaisir de travailler avec Ines. Toujours pertinente, motivée son savoir faire nous a permis de doubler notre vélocité. Une force de proposition en design UI/UX nous a aidé à améliorer grandement l'aspect visuel de la platform. Et pourtant c'est bien en Back-End qu'elle aura le plus fourni. C'est simple, il n'y a rien qu'elle n'a pas su faire.",
+          "name": "Gabriel Ibanez",
+          "role": "CTO, Wally"
+        },
+        {
+          "quote": "Ce qui la distingue, c'est sa capacité à comprendre nos besoins, à travailler en équipe et à proposer ses propres idées créatives pour améliorer le projet. Ines a également un sens aiguisé de l'expérience utilisateur et de la conception d'interface, ce qui ajoute une réelle valeur à son travail.",
+          "name": "Sabrina Trachsler",
+          "role": "Co-Founder, Karma Lama"
+        },
+        {
+          "quote": "Ayant travaillé avec Ines pendant quelques années, je peux dire qu'elle possède de nombreuses compétences solides : Elle est très douée pour le UI ; elle a un œil critique pour les combinaisons de couleurs et les interfaces utilisateurs ; elle est très efficace avec Figma. Excellente dans l'implémentation front-end. Très douée pour la logique et l'implémentation du back-end.",
+          "name": "Stéphane Lafontaine",
+          "role": "Développeur Back-End, Petal"
+        },
+        {
+          "quote": "Une designer très exigeante. Ines m'a beaucoup appris sur l'aspect UI/UX d'un problème. Elle a une vision des sites qui met la transparence et la practicabilité au premier plan, sans sacrifier l'esthétique. Il a été très facile de travailler avec elle, et je suis heureux de dire qu'elle a poussé mon équipe à trouver les meilleure solutions de conception.",
+          "name": "Étudiant",
+          "role": "Le Wagon bootcamp"
+        },
+        {
+          "quote": "Ines a donné mes cours et livecodes préférés du bootcamp - ils étaient interactifs et elle a encouragé les gens à s'exprimer d'une manière bienveillante. Elle semble être une véritable experte en la matière, mais aucune question ne m'a semblé stupide.",
+          "name": "Étudiant",
+          "role": "Le Wagon bootcamp"
+        }
+      ]
+    }
+  }
+}
