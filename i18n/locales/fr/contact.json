@@ -5,7 +5,8 @@
       "description": "Prêt à vous lancer? Je serais ravie de connaître vos objectifs et vos besoins."
     },
     "form": {
-      "name": "Nom"
+      "name": "Nom",
+      "cta": "Envoyer"
     }
   }
 }
