@@ -6,7 +6,10 @@
     },
     "form": {
       "name": "Nom",
-      "cta": "Envoyer"
+      "cta": "Envoyer",
+      "placeholder": "De quoi avez-vous besoin? 😃",
+      "error_message": "Oh non, il y a un problème 🙁 Veuillez soumettre le formulaire à nouveau. ",
+      "success_message": "Merci de m'avoir contacté ! À très vite 🙌"
     }
   }
 }
