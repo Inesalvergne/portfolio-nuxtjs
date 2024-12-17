@@ -3,6 +3,9 @@
     "header": {
       "title": "Discutons de votre projet",
       "description": "Prêt à vous lancer? Je serais ravie de connaître vos objectifs et vos besoins."
+    },
+    "form": {
+      "name": "Nom"
     }
   }
 }

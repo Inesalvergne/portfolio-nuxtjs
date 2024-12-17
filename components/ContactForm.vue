@@ -5,7 +5,7 @@
         <input type="hidden" name="form-name" value="contact" />
         <div class="">
           <div class="text-left">
-            <label for="name">Name</label>
+            <label for="name"> {{ $t("contact.form.name") }}</label>
             <div class="mt-2">
               <div class="rounded-sm pl-3 outline outline-1 -outline-offset-1 outline-gray-300 focus-within:outline focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-coral">
                 <input
