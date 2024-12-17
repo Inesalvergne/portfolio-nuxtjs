@@ -1,8 +1,8 @@
 <template>
   <main>
     <Header
-      title="Let's chat"
-      description="Ready to start your next project? Get in touch and let's dicuss how we can collaborate together."
+      :title="$t('contact.header.title')"
+      :description="$t('contact.header.description')"
     />
     <ContactForm />
   </main>
