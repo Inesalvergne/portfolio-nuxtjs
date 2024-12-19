@@ -1,7 +1,7 @@
 <template>
-  <main class="bg-light-pink laptop:rounded-t-[60px] shadow-sm mt-20">
-    <div class="w-11/12 laptop:w-9/12 desktop:w-7/12 mx-auto">
-      <div class="h-[200px] py-10">
+  <div class="w-full laptop:w-9/12 desktop:w-7/12 mx-auto">
+    <div class="bg-light-pink laptop:rounded-lg shadow-sm mt-20 laptop:mb-10 px-6 laptop:px-10">
+      <div class="h-[180px] py-10">
         <div class="flex justify-between items-start">
           <div>
             <img src="@/assets/images/logo_ines.png" alt="logo ines alvergne" width="100">
@@ -24,7 +24,7 @@
         </div>
       </div>
     </div>
-  </main>
+  </div>
 </template>
 
 <script setup>
