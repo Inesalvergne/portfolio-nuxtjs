@@ -48,7 +48,7 @@
       websiteLink: "https://www.karmalama.ch/"
     },
     { title: "Wally",
-      description: "A fractional investment platform to allow individuals and partners to invest in real-estate without hassle.",
+      description: t('projects.cards.wally.description'),
       role: "Rails Full-Stack Developer",
       image: wallyImage,
       imageClass: "laptop:w-[600px]",
@@ -57,7 +57,7 @@
       websiteLink: "https://app.wally.co"
     },
     { title: "K Yoga",
-      description: "A platform for yoga enthusiasts to practice everyday with live courses and explore different types of yoga with an extensive video library.",
+      description: t('projects.cards.k_yoga.description'),
       role: "Rails Lead Developer",
       image: kYogaImage,
       imageClass: "laptop:w-[600px]",
@@ -66,7 +66,7 @@
       websiteLink: "https://www.k-yoga.fr/"
     },
     { title: "Portfolio",
-      description: "A personal portfolio website to showcase my skills and projects. And also a great learning opportunity to experiment with a new framework: Nuxt 3.",
+      description: t('projects.cards.portfolio.description'),
       role: "Front-End Developer",
       image: portfolioImage,
       imageClass: "laptop:w-[600px]",

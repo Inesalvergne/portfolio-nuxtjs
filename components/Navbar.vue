@@ -37,6 +37,8 @@
           class="hover:text-gradient">
           {{ $t(link.text) }}
         </NuxtLink>
+
+        <LanguageSwitcher />
       </div>
     </div>
   </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="text-[20px] uppercase">
+  <div class="text-[20px]">
     <select
       class="px-2 bg-transparent"
       role="button"

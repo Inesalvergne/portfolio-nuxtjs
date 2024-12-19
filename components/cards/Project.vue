@@ -16,7 +16,7 @@
       </div>
       <div class="flex flex-col gap-5 laptop:flex-row laptop:justify-between border-t border-t-brick mt-10 pt-5">
         <p><span class="font-bold">Role:</span> {{ role }}</p>
-        <a :href="websiteLink" target="_blank" class="text-brick">Visit website →</a>
+        <a :href="websiteLink" target="_blank" class="text-brick">{{ $t("projects.cta") }} →</a>
       </div>
     </div>
   </div>
