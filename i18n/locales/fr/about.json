@@ -31,27 +31,32 @@
         {
           "company": "Auto-Entrepreneure",
           "role": "Développeuse Web Freelance",
-          "period": "2022 - now"
+          "period": "2022 - now",
+          "location": "À distance"
         },
         {
           "company": "Le Wagon",
           "role": "Enseignante en Développement Web",
-          "period": "2022 - now"
+          "period": "2022 - now",
+          "location": "Canada & France"
         },
         {
           "company": "Le Wagon",
           "role": "Responsable Marketing",
-          "period": "2021 - 2023"
+          "period": "2021 - 2023",
+          "location": "Montréal, Canada"
         },
         {
           "company": "Keela",
           "role": "Chargée de Contenu Marketing",
-          "period": "2019 - 2020"
+          "period": "2019 - 2020",
+          "location": "Vancouver, Canada"
         },
         {
           "company": "La Pieza",
           "role": "Coordinatrice en Communications",
-          "period": "2018 - 2019"
+          "period": "2018 - 2019",
+          "location": "Mexico, Mexique"
         }
       ]
     },
@@ -61,17 +66,20 @@
         {
           "company": "Le Wagon",
           "role": "Bootcamp en Développement Web Full-Stack",
-          "period": "2022"
+          "period": "2022",
+          "location": "Montréal, Canada"
         },
         {
           "company": "McGill University",
           "role": "Master of Arts in Political Science",
-          "period": "2016 - 2018"
+          "period": "2016 - 2018",
+          "location": "Montréal, Canada"
         },
         {
           "company": "European School of Political Science",
           "role": "Licence en Études Européennes",
-          "period": "2013 - 2016"
+          "period": "2013 - 2016",
+          "location": "Lille, France"
         }
       ]
     }

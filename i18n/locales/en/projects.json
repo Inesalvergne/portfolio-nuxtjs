@@ -6,7 +6,7 @@
     },
     "cards": {
       "karma_lama": {
-        "description": "A web and mobile application to connect non-profit organisations with volunteers. Organisations can create and manage volunteer missions and volunteers can earn points for completing missions."
+        "description": "A web and mobile application to connect non-profit organisations with volunteers. Organisations can create and manage volunteer missions, and volunteers can earn points for completing missions."
       },
       "wally": {
         "description": "A fractional investment platform to remove barriers for individuals and partners to invest in real-estate."

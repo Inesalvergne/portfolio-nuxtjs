@@ -2,7 +2,7 @@
   "about": {
     "header": {
       "title": "About me",
-      "description": "I’m a Freelance Web Developer with 7 years of experience in the tech industry, including 2 years specializing in Ruby on Rails projects. Learn about my journey getting here."
+      "description": "I’m a Freelance Web Developer with 7 years of experience in the tech industry, including 2 years specializing in developing web projects. Learn about my journey getting here."
     },
     "presentation": {
       "title": "My diverse career path adds a twist to my work",
@@ -16,12 +16,12 @@
       },
       {
         "value": "6",
-        "description": "happy clients with Rails apps in production",
+        "description": "happy clients with web apps in production",
         "bgColor": "bg-transparent-pastel-2"
       },
       {
         "value": "3",
-        "description": "languages I'm fluent in: FR 🇫🇷, EN 🇬🇧, ES",
+        "description": "languages I'm fluent in: FR 🇫🇷, EN 🇬🇧, ES 🇪🇸",
         "bgColor": "bg-transparent-pastel-3"
       }
     ],
@@ -31,27 +31,32 @@
         {
           "company": "Self-Employed",
           "role": "Freelance Web Developer",
-          "period": "2022 - now"
+          "period": "2022 - now",
+          "location": "Remote"
         },
         {
           "company": "Le Wagon",
           "role": "Teacher in Web Development",
-          "period": "2022 - now"
+          "period": "2022 - now",
+          "location": "Canada & France"
         },
         {
           "company": "Le Wagon",
           "role": "Marketing Lead",
-          "period": "2021 - 2023"
+          "period": "2021 - 2023",
+          "location": "Montreal, Canada"
         },
         {
-          "company": "Keela",
+          "company": "Keela - Vancouver, Canada",
           "role": "Content Marketing Specialist",
-          "period": "2019 - 2020"
+          "period": "2019 - 2020",
+          "location": "Vancouver, Canada"
         },
         {
           "company": "La Pieza",
           "role": "Communications Coordinator",
-          "period": "2018 - 2019"
+          "period": "2018 - 2019",
+          "location": "Mexico City, Mexico"
         }
       ]
       },
@@ -61,17 +66,20 @@
         {
           "company": "Le Wagon",
           "role": "Full-Stack Web Development bootcamp",
-          "period": "2022"
+          "period": "2022",
+          "location": "Montreal, Canada"
         },
         {
           "company": "McGill University",
           "role": "Master of Arts in Political Science",
-          "period": "2016 - 2018"
+          "period": "2016 - 2018",
+          "location": "Montreal, Canada"
         },
         {
-          "company": "European School of Political Science",
+          "company": "ESPOL - Lille, France",
           "role": "Bachelor in European Studies",
-          "period": "2013 - 2016"
+          "period": "2013 - 2016",
+          "location": "Lille, France"
         }
       ]
     }

@@ -32,6 +32,7 @@
               :key="index"
               :company=rt(item.company)
               :role=rt(item.role)
+              :location=rt(item.location)
               :period=rt(item.period)
             />
           </div>
@@ -43,6 +44,7 @@
               :key="index"
               :company=rt(item.company)
               :role=rt(item.role)
+              :location=rt(item.location)
               :period=rt(item.period)
             />
           </div>
