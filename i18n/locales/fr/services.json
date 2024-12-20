@@ -1,0 +1,30 @@
+{
+  "services": {
+    "header": {
+      "title": "Créons ensemble des solutions innovantes",
+      "description": "Que vous souhaitiez partir de zéro ou ajouter de nouvelles fonctionnalités à votre projet, je suis là pour vous aider. Vous pouvez m'engager en tant que développeuse solo ou je peux rejoindre votre équipe pour les services ci-dessous."
+    },
+    "cards": {
+      "scoping": {
+        "title": "Définition du projet et prototypage",
+        "description": "Je vous aiderai à comprendre votre audience, définir les parcours utilisateurs et élaborer la structure de votre application. Puis, nous créerons des prototypes interactifs qui donneront vie à votre vision en mettant l'accent sur votre marque et l'expérience utilisateur."
+      },
+      "development": {
+        "title": "Création d'un site web ou d'une application",
+        "description": "Que vous cherchiez à construire un MVP ou à ajouter de nouvelles fonctionnalités à une application existante, je suis spécialisé dans la construction de solutions efficaces et évolutives avec Ruby on Rails. Ensemble, nous ferons en sorte que votre application évolue en même temps que vos objectifs commerciaux."
+      },
+      "apis": {
+        "title": "Intégration d'API",
+        "description": "Développons les capacités de votre application en intégrant des API pour améliorer les fonctionnalités. Des solutions de paiements aux CRM, je connecterai votre application aux services dont vous avez besoin."
+      },
+      "deploy": {
+        "title": "Tests, déploiement et collaboration",
+        "description": "En mettant l'accent sur la qualité et la fiabilité, je m'occuperai des tests et du déploiement afin d'assurer des lancements sans interruption. Je suis prête à collaborer avec votre équipe, à maintenir la qualité du code et à faire avancer votre projet"
+      },
+      "boost": {
+        "title": "Boost et suivi du trafic",
+        "description": "Attirez de nouveaux utilisateurs sur votre application et gardez-les engagés ! Grâce à mon expérience en marketing, je vous accompagnerai pour mettre en place des outils pour surveiller et augmenter le trafic sur votre site."
+      }
+    }
+  }
+}

@@ -3,6 +3,7 @@
       <div class="flex-1">
         <p class="text-brick font-medium">{{ company }}</p>
         <p>{{ role }}</p>
+        <p class="italic">{{ location }}</p>
       </div>
       <p class="italic">{{ period }}</p>
     </div>
@@ -13,7 +14,8 @@ export default {
   props: {
     company: String,
     role: String,
-    period: String
+    period: String,
+    location: String
   },
 };
 </script>

@@ -1,0 +1,23 @@
+{
+  "projects": {
+    "header": {
+      "title": "Discover a few projects I've worked on",
+      "description": "Here's a showcase of projects I've enjoyed working on. Each of them has been an opportunity to learn and grow as a developer and collaborate with inspiring people."
+    },
+    "cards": {
+      "karma_lama": {
+        "description": "A web and mobile application to connect non-profit organisations with volunteers. Organisations can create and manage volunteer missions, and volunteers can earn points for completing missions."
+      },
+      "wally": {
+        "description": "A fractional investment platform to remove barriers for individuals and partners to invest in real-estate."
+      },
+      "k_yoga": {
+        "description": "A platform for yoga enthusiasts to practice everyday with live courses and explore different types of yoga with an extensive video library."
+      },
+      "portfolio": {
+        "description": "A portfolio website to showcase my skills and projects. And, a great learning opportunity to experiment with a JS framework: Nuxt 3."
+      }
+    },
+    "cta": "Visit website"
+  }
+}

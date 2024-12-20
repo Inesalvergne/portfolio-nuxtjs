@@ -1,0 +1,15 @@
+{
+  "contact": {
+    "header": {
+      "title": "Let's chat",
+      "description": "Ready to start your next project? Get in touch and let's dicuss how we can collaborate together."
+    },
+    "form": {
+      "name": "Name",
+      "cta": "Send",
+      "placeholder": "What do you need help with? 😃",
+      "error_message": "Oh no, something went wrong 🙁 Please, try again.",
+      "success_message": "Thank you for reaching out! Talk to you soon 🙌"
+    }
+  }
+}

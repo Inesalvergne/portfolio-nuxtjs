@@ -1,0 +1,87 @@
+{
+  "about": {
+    "header": {
+      "title": "À propos",
+      "description": "Je suis une développeuse web freelance avec 7 ans d'expérience dans le secteur de la tech, dont 2 ans de spécialisation dans les projets Ruby on Rails. Découvez mon parcours."
+    },
+    "presentation": {
+      "title": "La diversité de mon parcours professionnel ajoute une touche unique à mon travail",
+      "description": "J'ai étudié en sciences politiques, puis je me suis orientée vers le marketing, avant de me découvrir une passion pour les produits web et le code. Ce mélange unique de compétences techniques et de connaissances en stratégie marketing m'aide à créer des solutions qui s'adressent à votre public cible, répondent aux besoins des utilisateurs et atteignent les objectifs de l'entreprise. J'apporterai une perspective unique, de la curiosité et du dynamisme à vos projets. Parlons-en !"
+    },
+    "kpis": [
+      {
+        "value": "7+",
+        "description": "ans d'experience dans le secteur de la tech",
+        "bgColor": "bg-transparent-pastel-1"
+      },
+      {
+        "value": "6",
+        "description": "clients satisfaits avec des applications Ruby on Rails",
+        "bgColor": "bg-transparent-pastel-2"
+      },
+      {
+        "value": "3",
+        "description": "langues dans lesquelles je peux travailler: FR 🇫🇷, EN 🇬🇧, ES 🇪🇸",
+        "bgColor": "bg-transparent-pastel-3"
+      }
+    ],
+    "work_experience": {
+      "title": "Work Experience",
+      "items": [
+        {
+          "company": "Auto-Entrepreneure",
+          "role": "Développeuse Web Freelance",
+          "period": "2022 - now",
+          "location": "À distance"
+        },
+        {
+          "company": "Le Wagon",
+          "role": "Enseignante en Développement Web",
+          "period": "2022 - now",
+          "location": "Canada & France"
+        },
+        {
+          "company": "Le Wagon",
+          "role": "Responsable Marketing",
+          "period": "2021 - 2023",
+          "location": "Montréal, Canada"
+        },
+        {
+          "company": "Keela",
+          "role": "Chargée de Contenu Marketing",
+          "period": "2019 - 2020",
+          "location": "Vancouver, Canada"
+        },
+        {
+          "company": "La Pieza",
+          "role": "Coordinatrice en Communications",
+          "period": "2018 - 2019",
+          "location": "Mexico, Mexique"
+        }
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "items": [
+        {
+          "company": "Le Wagon",
+          "role": "Bootcamp en Développement Web Full-Stack",
+          "period": "2022",
+          "location": "Montréal, Canada"
+        },
+        {
+          "company": "McGill University",
+          "role": "Master of Arts in Political Science",
+          "period": "2016 - 2018",
+          "location": "Montréal, Canada"
+        },
+        {
+          "company": "European School of Political Science",
+          "role": "Licence en Études Européennes",
+          "period": "2013 - 2016",
+          "location": "Lille, France"
+        }
+      ]
+    }
+  }
+}

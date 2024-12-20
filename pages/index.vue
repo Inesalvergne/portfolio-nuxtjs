@@ -6,38 +6,36 @@
       <div>
         <div class="tag bg-white  flex items-center gap-2 rounded-lg py-3 px-5 shadow-sm w-fit mt-10 laptop:mt-0">
           <img src="@/assets/images/green-dot.png" alt="green dot" width="20" class="animate-pulse">
-          Available
+          {{ t('home.header.available') }}
         </div>
 
-        <h1 class="my-5 text-brick text-[32px] font-semibold leading-[50px] laptop:text-[38px] ">
-          Hire a developer who combines <span class="text-gradient">technical skills</span> with <span class="text-gradient">a marketing edge</span>
-        </h1>
-        <p class="text-xl">I help entrepreneurs, startups, and SMEs to convert their ideas into web products. Let's work together!</p>
+        <h1 v-html="t('home.header.title')" class="my-5 text-brick text-[32px] font-semibold leading-[50px] laptop:text-[38px] "></h1>
+        <p class="text-xl">{{ t('home.header.description') }}</p>
         <NuxtLink to="/services" class="btn-primary mt-5">
-          Learn about my services
+          {{ t('home.header.cta') }}
         </NuxtLink>
       </div>
     </section>
 
     <section>
-      <h2 class="mb-6">Why hire me for your next project</h2>
+      <h2 class="mb-6">{{ t('home.strengths.title') }}</h2>
 
       <img src="@/assets/images/illustrations/team.svg" alt="team illustration" class="mx-auto" width="150">
       <div class="w-full relative">
         <IconsShapesLine class="hidden laptop:block absolute -z-10 bottom-[50%]"/>
         <div class="flex flex-col laptop:flex-row gap-12">
           <CardsInfo
-            v-for="(card, index) in cards"
+            v-for="(card, index) in tm('home.strengths.cards')"
             :key="index"
-            :title="card.title"
-            :description="card.description"
+            :title=rt(card.title)
+            :description=rt(card.description)
           />
         </div>
       </div>
     </section>
 
     <section>
-      <h2>We work together</h2>
+      <h2>{{ t('home.clients.title') }}</h2>
 
       <div class="grid grid-cols-3 gap-8 laptop:grid-cols-5 laptop:gap-20 items-center">
         <img src="@/assets/images/client_logos/karma_lama.png" alt="karma lama logo" class="h-auto max-h-16 max-w-25 m-auto" v-motion-pop-visible-once>
@@ -49,30 +47,18 @@
     </section>
 
     <section>
-      <h2>What people say about me</h2>
+      <h2>{{ t('home.testimonials.title') }}</h2>
       <TestimonialsCarrousel />
     </section>
   </main>
 </template>
 
 <script setup lang="ts">
+  import { useI18n } from 'vue-i18n';
+  const { t, tm, rt } = useI18n();
+
   definePageMeta({
     title: "Home",
     description: "Hire a developer who combines technical expertise with marketing insights. I can help you turn ideas into web products that drive traffic. Let’s work together!"
   })
-
-  const cards = [
-    {
-      title: "Ready to deliver",
-      description: "I have hands-on experience working on tech projects. I can either join your team or we can start a new project together."
-    },
-    {
-      title: "More than just code",
-      description: "With a background in marketing, I design products for various industries that connect with users and achieve business goals."
-    },
-    {
-      title: "Driven and curious",
-      description: "I've pivot careers twice. I'm always eager to take on a challenge, test new technologies and approaches, and learn. "
-    }
-  ]
 </script>

@@ -5,7 +5,7 @@
         <input type="hidden" name="form-name" value="contact" />
         <div class="">
           <div class="text-left">
-            <label for="name">Name</label>
+            <label for="name"> {{ $t('contact.form.name') }}</label>
             <div class="mt-2">
               <div class="rounded-sm pl-3 outline outline-1 -outline-offset-1 outline-gray-300 focus-within:outline focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-coral">
                 <input
@@ -43,7 +43,7 @@
                   id="message"
                   rows="5"
                   class="w-full rounded-sm px-3 py-1.5 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-coral sm:text-sm/6"
-                  placeholder="What do you need help with? 😃"
+                  :placeholder= "$t('contact.form.placeholder')"
                   required
                 ></textarea>
               </div>
@@ -51,7 +51,7 @@
           </div>
 
           <div class="mt-6 flex items-center justify-end gap-x-6">
-            <button type="submit" class="btn-primary">Send</button>
+            <button type="submit" class="btn-primary">{{ $t("contact.form.cta") }}</button>
           </div>
         </div>
       </form>
@@ -61,52 +61,55 @@
 </template>
 
 <script>
-import { ref } from "vue";
+  import { ref } from "vue";
+  import { useI18n } from 'vue-i18n';
 
-export default {
-  target: 'static',
-  ssr: true,
-  setup() {
-    const submissionMessage = ref("");
-    const messageClass = ref("");
+  export default {
+    target: 'static',
+    ssr: true,
+    setup() {
+      const { t } = useI18n();
 
-    const handleSubmit = async (event) => {
-      event.preventDefault();
+      const submissionMessage = ref("");
+      const messageClass = ref("");
 
-      const formData = new FormData(event.target);
-      const body = new URLSearchParams(formData).toString();
+      const handleSubmit = async (event) => {
+        event.preventDefault();
 
-      const errorMessage = () => {
-        submissionMessage.value = "Oh no, something went wrong 🙁 Please, try again.";
-        messageClass.value = "text-red-600 text-left";
-      }
+        const formData = new FormData(event.target);
+        const body = new URLSearchParams(formData).toString();
 
-      try {
-        const response = await fetch("/form", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/x-www-form-urlencoded",
-          },
-          body,
-        });
+        const errorMessage = () => {
+          submissionMessage.value = t("contact.form.error_message");
+          messageClass.value = "text-red-600 text-left";
+        }
 
-        if (response.ok) {
-          event.target.remove();
-          submissionMessage.value = "Thank you for your submission! Talk to you soon 🙌";
-          messageClass.value = "text-green-600";
-        } else {
+        try {
+          const response = await fetch("/form", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body,
+          });
+
+          if (response.ok) {
+            event.target.remove();
+            submissionMessage.value = t("contact.form.success_message");
+            messageClass.value = "text-green-600";
+          } else {
+            errorMessage()
+          }
+        } catch (error) {
           errorMessage()
         }
-      } catch (error) {
-        errorMessage()
-      }
-    };
+      };
 
-    return {
-      submissionMessage,
-      messageClass,
-      handleSubmit,
-    };
-  },
-};
+      return {
+        submissionMessage,
+        messageClass,
+        handleSubmit,
+      };
+    },
+  };
 </script>

@@ -1,0 +1,23 @@
+{
+  "projects": {
+    "header": {
+      "title": "Découvrez les projets sur lesquels je travaille",
+      "description": "Ces projets ont été l'occasion d'apprendre et de progresser en tant que développeuse, tout en collaborant avec des personnes inspirantes. "
+    },
+    "cards": {
+      "karma_lama": {
+        "description": "Une application web et mobile pour connecter des associations avec des bénévoles en Suisse. Les organisations peuvent créer et gérer des missions de bénévolat et les bénévoles peuvent gagner des points en offrant leur aide."
+      },
+      "wally": {
+        "description": "Une plateforme d'investissement fractionné pour éliminer les obstacles à l'investissement dans l'immobilier pour les particuliers et les partenaires."
+      },
+      "k_yoga": {
+        "description": "Une plateforme pour les passionnés de yoga qui pratiquent tous les jours grâce à des cours en direct et explorent différents types de yoga avec une vaste librairie vidéo."
+      },
+      "portfolio": {
+        "description": "Un site portfolio pour présenter mes compétences et mes projets. Et une excellente opportunité d'apprentissage pour expérimenter un framework JS : Nuxt 3."
+      }
+    },
+    "cta": "Visiter le site"
+  }
+}

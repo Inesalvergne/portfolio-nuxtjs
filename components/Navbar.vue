@@ -7,12 +7,14 @@
           <img src="@/assets/images/logo_ia.png" alt="logo ines alvergne" width="40" height="40">
         </NuxtLink>
         <NuxtLink
+          :to="localePath(`${link.to}`)"
           v-for="(link, index) in navLinks"
           :key="index"
-          :to="link.to"
-          class="text-[20px] hover:text-gradient">
-          {{ link.text }}
+          class="text-[20px] uppercase hover:text-gradient">
+          {{ $t(link.text) }}
         </NuxtLink>
+
+        <LanguageSwitcher />
       </div>
     </div>
 
@@ -33,8 +35,10 @@
           :to="link.to"
           @click="closeMenu()"
           class="hover:text-gradient">
-          {{ link.text }}
+          {{ $t(link.text) }}
         </NuxtLink>
+
+        <LanguageSwitcher />
       </div>
     </div>
   </div>
@@ -49,11 +53,13 @@
 <script setup>
   import { ref } from 'vue'
 
+  const localePath = useLocalePath()
+
   const navLinks = [
-    { text: 'ABOUT ME', to: '/about' },
-    { text: 'SERVICES', to: '/services' },
-    { text: 'PROJECTS', to: '/projects' },
-    { text: 'GET IN TOUCH', to: '/contact' },
+    { text: 'nav.about', to: '/about' },
+    { text: 'nav.services', to: '/services' },
+    { text: 'nav.projects', to: '/projects' },
+    { text: 'nav.contact', to: '/contact' },
   ]
 
   const showMenu = ref(false)

@@ -1,9 +1,8 @@
 <template>
   <div>
     <Header
-      title="Discover a few projects I've worked on"
-      description="Here's a showcase of projects I've enjoyed working on.
-                  Each of them has been an opportunity to learn and grow as a developer and collaborate with inspiring people."
+      :title= "$t('projects.header.title')"
+      :description= "$t('projects.header.description')"
     />
 
     <div class="flex flex-col gap-12">
@@ -29,6 +28,10 @@
   import kYogaImage from '@/assets/images/mockups/kyoga.png';
   import portfolioImage from '@/assets/images/mockups/portfolio.png';
 
+  import { useI18n } from 'vue-i18n';
+
+  const { t, rt } = useI18n();
+
   definePageMeta({
     title: "Projects",
     description: "Take a look at the projects I’ve worked on! From crafting intuitive UI/UX designs to developing solid Ruby on Rails backends, here’s how I’ve turned ideas into web products."
@@ -36,7 +39,7 @@
 
   const projects = [
     { title: "Karma Lama",
-      description: "A web and mobile application to connect non-profit organisations with volunteers. Organisations can create and manage volunteer missions and volunteers can earn points for completing missions.",
+      description: t('projects.cards.karma_lama.description'),
       role: "Rails Full-Stack Developer",
       image: karmaLamaImage,
       imageClass: "w-[300px] laptop:w-[400px]",
@@ -45,7 +48,7 @@
       websiteLink: "https://www.karmalama.ch/"
     },
     { title: "Wally",
-      description: "A fractional investment platform to allow individuals and partners to invest in real-estate without hassle.",
+      description: t('projects.cards.wally.description'),
       role: "Rails Full-Stack Developer",
       image: wallyImage,
       imageClass: "laptop:w-[600px]",
@@ -54,7 +57,7 @@
       websiteLink: "https://app.wally.co"
     },
     { title: "K Yoga",
-      description: "A platform for yoga enthusiasts to practice everyday with live courses and explore different types of yoga with an extensive video library.",
+      description: t('projects.cards.k_yoga.description'),
       role: "Rails Lead Developer",
       image: kYogaImage,
       imageClass: "laptop:w-[600px]",
@@ -63,7 +66,7 @@
       websiteLink: "https://www.k-yoga.fr/"
     },
     { title: "Portfolio",
-      description: "A personal portfolio website to showcase my skills and projects. And also a great learning opportunity to experiment with a new framework: Nuxt 3.",
+      description: t('projects.cards.portfolio.description'),
       role: "Front-End Developer",
       image: portfolioImage,
       imageClass: "laptop:w-[600px]",
