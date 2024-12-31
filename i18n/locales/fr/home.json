@@ -2,7 +2,7 @@
   "home": {
     "header": {
       "available": "Disponible",
-      "title": "Embauchez une développeuse qui combine <span class='text-gradient'>des compétences techniques</span> avec <span class='text-gradient'>une démarche marketing</span>",
+      "title": "Embauchez une développeuse qui combine <span class='text-gradient'>compétences techniques</span> et <span class='text-gradient'>approche marketing</span>",
       "description": "J'aide les entrepreneurs, les startups et les PME à convertir leurs idées en produits web. Travaillons ensemble !",
       "cta": "Découvrir mes services"
     },
@@ -30,7 +30,7 @@
       "title": "Le point de vue de mes collaborateurs",
       "slides": [
         {
-          "quote": "C'est un vrai plaisir de travailler avec Ines. Toujours pertinente, motivée son savoir faire nous a permis de doubler notre vélocité. Une force de proposition en design UI/UX nous a aidé à améliorer grandement l'aspect visuel de la platform. Et pourtant c'est bien en Back-End qu'elle aura le plus fourni. C'est simple, il n'y a rien qu'elle n'a pas su faire.",
+          "quote": "C'est un vrai plaisir de travailler avec Ines. Toujours pertinente, motivée son savoir faire nous a permis de doubler notre vélocité. Une force de proposition en design UI/UX nous a aidé à améliorer grandement l'aspect visuel de la platforme. Et pourtant c'est bien en Back-End qu'elle aura le plus fourni. C'est simple, il n'y a rien qu'elle n'a pas su faire.",
           "name": "Gabriel Ibanez",
           "role": "CTO, Wally"
         },
