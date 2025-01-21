@@ -26,7 +26,7 @@
       <div class="mx-auto pt-10">
         <div class="laptop:flex justify-between px-10 laptop:p-0 ">
           <div>
-            <h2 class="text-brick">Work Experience</h2>
+            <h2 class="text-brick">{{ t('about.work_experience.title') }}</h2>
             <ExperienceItem
               v-for="(item, index) in tm('about.work_experience.items')"
               :key="index"
@@ -38,7 +38,7 @@
           </div>
 
           <div>
-            <h2 class="text-brick">Education</h2>
+            <h2 class="text-brick">{{ t('about.education.title') }}</h2>
             <ExperienceItem
               v-for="(item, index) in tm('about.education.items')"
               :key="index"

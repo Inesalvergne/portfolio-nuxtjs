@@ -7,23 +7,23 @@
     "cards": {
       "scoping": {
         "title": "Définition du projet et prototypage",
-        "description": "Je vous aiderai à comprendre votre audience, définir les parcours utilisateurs et élaborer la structure de votre application. Puis, nous créerons des prototypes interactifs qui donneront vie à votre vision en mettant l'accent sur votre marque et l'expérience utilisateur."
+        "description": "Je vous aide à comprendre votre audience, définir les parcours utilisateurs et élaborer la structure de votre application. Puis je crée des prototypes interactifs qui donnent vie à votre vision en mettant l'accent sur votre marque et l'expérience utilisateur."
       },
       "development": {
         "title": "Création d'un site web ou d'une application",
-        "description": "Je suis spécialisée dans la création de plateformes full-stack avec Ruby on Rails. Ensemble, nous ferons en sorte que votre application évolue en même temps que vos objectifs commerciaux."
+        "description": "Je suis spécialisée dans la création de plateformes Full-Stack avec Ruby on Rails. Je vous aide à faire grandir votre application au rythme de vos objectifs commerciaux."
       },
       "apis": {
         "title": "Intégration d'API",
-        "description": "Développons les capacités de votre application en intégrant des API pour améliorer les fonctionnalités. Solutions de paiements, CRM, Emailing, appels Zoom... Je connecterai votre application aux services dont vous avez besoin."
+        "description": "Développons les capacités de votre application en intégrant des API pour en améliorer les fonctionnalités. Solutions de paiement, CRM, Emailing, appels Zoom... Je connecte votre application aux services dont vous avez besoin."
       },
       "deploy": {
         "title": "Tests, déploiement et collaboration",
-        "description": "En mettant l'accent sur la qualité et la fiabilité, je m'occuperai des tests et du déploiement afin d'assurer des lancements sans interruption. Je suis prête à collaborer avec votre équipe, à maintenir la qualité du code et à faire avancer votre projet."
+        "description": "En mettant l'accent sur la qualité et la fiabilité, je m'occupe des tests et du déploiement afin d'assurer des lancements sans interruption. Je suis prête à collaborer avec votre équipe, à maintenir la qualité du code et à faire avancer votre projet."
       },
       "boost": {
         "title": "Boost et suivi du trafic",
-        "description": "Attirez de nouveaux utilisateurs sur votre application et gardez-les engagés ! Grâce à mon expérience en marketing, je vous accompagnerai pour mettre en place des outils de surveillance et augmenter le trafic sur votre site."
+        "description": "Attirez de nouveaux utilisateurs sur votre application et gardez-les engagés !  J’utilise mon expérience en marketing pour mettre en place des outils de surveillance et augmenter le trafic sur votre site."
       }
     }
   }

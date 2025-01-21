@@ -2,28 +2,28 @@
   "services": {
     "header": {
       "title": "Let's build something great together",
-      "description": "Whether your want to start from scratch or add new features to your project, I'm here to help. You can hire me as a solo dev or I can join your team for one or all of the services below."
+      "description": "Whether your want to start from scratch or add new features to your project, I'm here to help. You can hire me as a solo dev or I can join your team for the services below."
     },
     "cards": {
       "scoping": {
         "title": "Zero to one - Scopes & Prototypes",
-        "description": "I’ll help you understand your audience, map out user journeys, and outline the structure of your app. From there, we’ll create interactive prototypes that bring your vision to life with a focus on your brand and user experience.",
+        "description": "I help you understand your audience, map out user journeys, and outline the structure of your app. From there, I create interactive prototypes that bring your vision to life with a focus on your brand and user experience.",
       },
       "development": {
-        "title": "Hit the ground running - Build a website or app",
-        "description": "Whether you're looking to build a MVP or add new features to an existing app, I specialize in building efficient, scalable solutions with Ruby on Rails. Together, we’ll ensure your app evolves alongside your business goals."
+        "title": "Hit the ground running - Build your project",
+        "description": "Whether you're looking to build an MVP or add new features to an existing app, I specialize in building efficient and scalable solutions with Ruby on Rails. I make sure your app evolves alongside your business goals."
       },
       "apis": {
         "title": "Connect & Grow - APIs integrations",
-        "description": "Let’s expand your app’s capabilities by integrating APIs to enhance functionality. From payment processing to CRMs, I'll seamlessly connect your app to the services you need."
+        "description": "Let’s expand your app’s capabilities by integrating APIs to enhance functionality. From payment processing to CRMs, I seamlessly connect your app to the services you need."
       },
       "deploy": {
         "title": "Ready to shine - Tests, deploy & collaboration",
-        "description": "With a focus on quality and reliability, I’ll handle testing and deployment to ensure smooth launches. I’m ready to collaborate with your team, maintain code quality, and keep your project moving forward."
+        "description": "With a focus on quality and reliability, I handle testing and deployment to ensure smooth launches. I’m ready to collaborate with your team, maintain code quality, and keep your project moving forward."
       },
       "boost": {
         "title": "Conquer the market - Boost & track traffic",
-        "description": "Let’s bring new users to your app and keep them engaged! Using my experience in Marketing, I’ll help you set up tools to monitor traffic and implement strategies for growth."
+        "description": "Let’s bring new users to your app and keep them engaged! Using my experience in Marketing, I help you set up tools to monitor traffic and implement strategies for growth."
       }
     }
   }
