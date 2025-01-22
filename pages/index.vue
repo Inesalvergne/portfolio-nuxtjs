@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="laptop:flex items-center gap-20" v-motion-slide-visible-once-bottom>
+    <section class="laptop:flex items-center gap-20" v-motion-pop-visible-once>
       <img src="@/assets/images/illustrations/strategy.svg" alt="drawing of a woman" width="330">
 
       <div>
