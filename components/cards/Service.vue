@@ -1,5 +1,5 @@
 <template>
-  <div :class="['mx-auto mb-10 rounded-lg', bgColor]" v-motion-slide-visible-bottom>
+  <div :class="['mx-auto mb-10 rounded-lg', bgColor]" v-motion-slide-visible-once-bottom>
     <div class="px-10 pt-10 pb-5">
       <component v-bind:is="illustration" class="mb-10" />
       <h2 class="text-[26px] tablet:text-[30px] leading-8 laptop:leading-10 font-bold mb-5">{{ title }}</h2>
