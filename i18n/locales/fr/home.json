@@ -30,31 +30,37 @@
       "title": "Le point de vue de mes collaborateurs",
       "slides": [
         {
+          "avatar": "gabriel.png",
           "quote": "C'est un vrai plaisir de travailler avec Ines. Toujours pertinente, motivée son savoir faire nous a permis de doubler notre vélocité. Une force de proposition en design UI/UX nous a aidé à améliorer grandement l'aspect visuel de la platforme. Et pourtant c'est bien en Back-End qu'elle aura le plus fourni. C'est simple, il n'y a rien qu'elle n'a pas su faire.",
           "name": "Gabriel Ibanez",
           "role": "CTO, Wally"
         },
         {
+          "avatar": "sylvain.jpg",
           "quote": "Je recommande vivement Ines, une développeuse talentueuse et fiable ! Ce que j’apprécie particulièrement, c’est sa capacité à aller au-delà des solutions classiques. Ensemble, nous avons développé des innovations spécifiques pour la gestion interne de mon site, ce qui m’a permis de réaliser des économies importantes, tant sur les coûts de fonctionnement du site que sur les applications annexes nécessaires.",
           "name": "Sylvain Charpiot",
           "role": "Founder, K Yoga"
         },
         {
-          "quote": "Ce qui la distingue, c'est sa capacité à comprendre nos besoins, à travailler en équipe et à proposer ses propres idées créatives pour améliorer le projet. Ines a également un sens aiguisé de l'expérience utilisateur et de la conception d'interface, ce qui ajoute une réelle valeur à son travail.",
+          "avatar": "sabrina.jpg",
+          "quote": "Ines est une développeuse web exceptionnelle qui allie l'expertise technique à la fiabilité et à la créativité. Ce qui la distingue, c'est sa capacité à comprendre nos besoins, à travailler en équipe et à proposer ses propres idées créatives pour améliorer le projet. Ines a également un sens aiguisé de l'expérience utilisateur et de la conception d'interface, ce qui ajoute une réelle valeur à son travail.",
           "name": "Sabrina Trachsler",
           "role": "Co-Founder, Karma Lama"
         },
         {
+          "avatar": "steph.jpeg",
           "quote": "Ayant travaillé avec Ines pendant quelques années, je peux dire qu'elle possède de nombreuses compétences solides : Elle est très douée pour le UI ; elle a un œil critique pour les combinaisons de couleurs et les interfaces utilisateurs ; elle est très efficace avec Figma. Excellente dans l'implémentation front-end. Très douée pour la logique et l'implémentation du back-end.",
           "name": "Stéphane Lafontaine",
           "role": "Développeur Back-End, Petal"
         },
         {
+          "avatar": "default.png",
           "quote": "Une designer très exigeante. Ines m'a beaucoup appris sur l'aspect UI/UX d'un problème. Elle a une vision des sites qui met la transparence et la practicabilité au premier plan, sans sacrifier l'esthétique. Il a été très facile de travailler avec elle, et je suis heureux de dire qu'elle a poussé mon équipe à trouver les meilleure solutions de conception.",
           "name": "Étudiant",
           "role": "Le Wagon bootcamp"
         },
         {
+          "avatar": "default.png",
           "quote": "Ines a donné mes cours et livecodes préférés du bootcamp - ils étaient interactifs et elle a encouragé les gens à s'exprimer d'une manière bienveillante. Elle semble être une véritable experte en la matière, mais aucune question ne m'a semblé stupide.",
           "name": "Étudiant",
           "role": "Le Wagon bootcamp"
