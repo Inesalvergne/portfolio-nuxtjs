@@ -56,7 +56,7 @@ export default defineNuxtConfig({
         ],
       },
     ],
-    strategy: "prefix",
+    strategy: "prefix_except_default",
     compilation: { strictMessage: false, escapeHtml: false },
   },
 });

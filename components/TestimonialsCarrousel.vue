@@ -2,15 +2,15 @@
   <div>
     <swiper-container ref="swiperInstance" class="" :init="false">
       <swiper-slide
-        v-for="(slide, idx) in tm('home.testimonials.slides')"
-        :key="idx"
+        v-for="(slide, index) in tm('home.testimonials.slides')"
+        :key="index"
         class="laptop:w-1/3 shadow-sm rounded-lg p-10 bg-white h-auto">
         <div class="h-3/4">
           <p>{{ rt(slide.quote) }}</p>
         </div>
 
-        <div class="mt-3 flex items-center gap-4">
-          <img alt="" class="w-14 h-14" style="border-radius:50%;" :src=slide.avatar>
+        <div class="mt-6 flex items-center gap-4">
+          <img :src= "`avatars/${ rt(slide.avatar)}`" alt="avatar" class="w-14 h-14" style="border-radius:50%;">
           <div>
             <p class="font-semibold text-brick">{{ rt(slide.name) }}</p>
             <p class="text-pink">{{ rt(slide.role) }}</p>
