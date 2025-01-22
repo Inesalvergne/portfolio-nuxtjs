@@ -19,6 +19,6 @@
     description: `${route.meta.description}`,
     ogTitle: 'Ines Alvergne',
     ogType: 'website',
-    ogImage: 'https://inesalvergne.com/og-image.png',
+    ogImage: 'https://inesalvergne.com/og_image.png',
   })
 </script>
