@@ -5,6 +5,9 @@
       "description": "Ces projets ont été l'occasion d'apprendre et de progresser en tant que développeuse, tout en collaborant avec des personnes inspirantes. "
     },
     "cards": {
+      "rails_world": {
+        "description": "Une site web statique pour promouvoir la conférence Rails World, organisée par la fondation Ruby on Rails à Amsterdam."
+      },
       "karma_lama": {
         "description": "Une application web et mobile pour connecter des associations avec des bénévoles en Suisse. Les organisations peuvent créer et gérer des missions de bénévolat et les bénévoles peuvent gagner des points en offrant leur aide."
       },
