@@ -23,6 +23,7 @@
 </template>
 
 <script setup>
+  import railsWorldImage from '@/assets/images/mockups/rails_world.png';
   import karmaLamaImage from '@/assets/images/mockups/karmalama.png';
   import wallyImage from '@/assets/images/mockups/wally.png';
   import kYogaImage from '@/assets/images/mockups/kyoga.png';
@@ -38,6 +39,15 @@
   })
 
   const projects = [
+    { title: "Rails World 2025",
+      description: t('projects.cards.rails_world.description'),
+      role: "Front-End Developer",
+      image: railsWorldImage,
+      imageClass: "w-[300px] laptop:w-[400px]",
+      imageContainerClass: "items-end justify-center h-[300px] laptop:h-full",
+      tags: ["Front-End", "Jekyll", "Liquid", "Vanilla JS"],
+      websiteLink: "https://rubyonrails.org/world/2025"
+    },
     { title: "Karma Lama",
       description: t('projects.cards.karma_lama.description'),
       role: "Rails Full-Stack Developer",
