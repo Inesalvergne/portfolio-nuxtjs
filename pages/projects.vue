@@ -28,6 +28,7 @@
   import wallyImage from '@/assets/images/mockups/wally.png';
   import kYogaImage from '@/assets/images/mockups/kyoga.png';
   import portfolioImage from '@/assets/images/mockups/portfolio.png';
+  import followerProductsImage from '@/assets/images/mockups/follower_products.png';
 
   import { useI18n } from 'vue-i18n';
 
@@ -39,6 +40,15 @@
   })
 
   const projects = [
+    { title: "Follower Products",
+      description: t('projects.cards.follower_products.description'),
+      role: "Designer & Front-End Developer",
+      image: followerProductsImage,
+      imageClass: "laptop:w-[600px]",
+      imageContainerClass: "justify-end items-center h-[250px] laptop:h-full",
+      tags: ["UI Design", "Front-end", "Nuxt", "Vue.js", "SEO"],
+      websiteLink: "https://followerproducts.io/"
+    },
     { title: "Rails World 2025",
       description: t('projects.cards.rails_world.description'),
       role: "Front-End Developer",
@@ -47,15 +57,6 @@
       imageContainerClass: "items-end justify-center h-[300px] laptop:h-full",
       tags: ["Front-End", "Jekyll", "Liquid", "Vanilla JS"],
       websiteLink: "https://rubyonrails.org/world/2025"
-    },
-    { title: "Karma Lama",
-      description: t('projects.cards.karma_lama.description'),
-      role: "Rails Full-Stack Developer",
-      image: karmaLamaImage,
-      imageClass: "w-[300px] laptop:w-[400px]",
-      imageContainerClass: "items-end justify-center h-[300px] laptop:h-full",
-      tags: ["Full-Stack", "UI design", "Marketing assets", "Admin dashboard"],
-      websiteLink: "https://www.karmalama.ch/"
     },
     { title: "Wally",
       description: t('projects.cards.wally.description'),
@@ -66,9 +67,18 @@
       tags: ["Fintech", "Full-Stack", "UI Design", "Administrate dashboard"],
       websiteLink: "https://app.wally.co"
     },
+    { title: "Karma Lama",
+      description: t('projects.cards.karma_lama.description'),
+      role: "Rails Full-Stack Developer",
+      image: karmaLamaImage,
+      imageClass: "w-[300px] laptop:w-[400px]",
+      imageContainerClass: "items-end justify-center h-[300px] laptop:h-full",
+      tags: ["Full-Stack", "UI design", "Marketing assets", "Admin dashboard"],
+      websiteLink: "https://www.karmalama.ch/"
+    },
     { title: "K Yoga",
       description: t('projects.cards.k_yoga.description'),
-      role: "Rails Lead Developer",
+      role: "Designer & Rails Lead Developer",
       image: kYogaImage,
       imageClass: "laptop:w-[600px]",
       imageContainerClass: "justify-end items-center h-[250px] laptop:h-full",
@@ -77,7 +87,7 @@
     },
     { title: "Portfolio",
       description: t('projects.cards.portfolio.description'),
-      role: "Front-End Developer",
+      role: "Designer & Front-End Developer",
       image: portfolioImage,
       imageClass: "laptop:w-[600px]",
       imageContainerClass: "justify-end items-center h-[250px] laptop:h-full",

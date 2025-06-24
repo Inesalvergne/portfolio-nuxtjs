@@ -5,6 +5,9 @@
       "description": "Here's a showcase of projects I've enjoyed working on. Each of them has been an opportunity to learn and grow as a developer and collaborate with inspiring people."
     },
     "cards": {
+      "follower_products": {
+        "description": "Complete redesign and development of the website - a multilingual, one-page showcase to present the company's security solutions with a clean interface."
+      },
       "rails_world": {
         "description": "A static website to promote the Rails World conference, organized by the Ruby on Rails foundation at Amsterdam."
       },
@@ -18,7 +21,7 @@
         "description": "A platform for yoga enthusiasts to practice everyday with live courses and explore different types of yoga with an extensive video library."
       },
       "portfolio": {
-        "description": "A portfolio website to showcase my skills and projects. Also a great opportunity to experiment with a JS framework: Vue.js with Nuxt 3."
+        "description": "A portfolio website to showcase my skills and projects."
       }
     },
     "cta": "Visit website"
