@@ -30,6 +30,12 @@
       "title": "Le point de vue de mes collaborateurs",
       "slides": [
         {
+          "avatar": "raphael.jpeg",
+          "quote": "Ines a su allier esthétique et fonctionnalité, ce qui a grandement amélioré l'expérience utilisateur de notre site. Elle a été à notre écoute et a su s'adapter à toutes nos demandes. Je la recommande vivement pour toute mission nécessitant une touche à la fois technique et créative !",
+          "name": "Raphael Moncada",
+          "role": "Business Development Manager, Follower Products"
+        },
+        {
           "avatar": "gabriel.png",
           "quote": "C'est un vrai plaisir de travailler avec Ines. Toujours pertinente, motivée son savoir faire nous a permis de doubler notre vélocité. Une force de proposition en design UI/UX nous a aidé à améliorer grandement l'aspect visuel de la platforme. Et pourtant c'est bien en Back-End qu'elle aura le plus fourni. C'est simple, il n'y a rien qu'elle n'a pas su faire.",
           "name": "Gabriel Ibanez",
