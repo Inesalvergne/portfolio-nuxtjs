@@ -30,6 +30,12 @@
       "title": "What people say about me",
       "slides": [
         {
+          "avatar": "raphael.jpeg",
+          "quote": "Ines successfully combined aesthetics and functionality, which greatly improved the user experience of our website. She was attentive and adapted to all our requests. I highly recommend her for any project that requires both technical skill and creative flair!",
+          "name": "Raphael Moncada",
+          "role": "Business Development Manager, Follower Products"
+        },
+        {
           "avatar": "gabriel.png",
           "quote": "Ines is a real pleasure to work with. Always relevant and motivated, she allowed us to double our velocity. A strong UI/UX designer, she helped us greatly improve the visual aspect of the platform. And yet, it was onthe back-end that she shipped the most. Put simply, there's nothing she can't do.",
           "name": "Gabriel Ibanez",

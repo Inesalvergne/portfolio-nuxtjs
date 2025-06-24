@@ -5,6 +5,9 @@
       "description": "Ces projets ont été l'occasion d'apprendre et de progresser en tant que développeuse, tout en collaborant avec des personnes inspirantes. "
     },
     "cards": {
+      "follower_products": {
+        "description": "Refonte complète et développement du site web — une vitrine one-page multilingue pour présenter les solutions de sécurité de l’entreprise avec une interface épurée."
+      },
       "rails_world": {
         "description": "Une site web statique pour promouvoir la conférence Rails World, organisée par la fondation Ruby on Rails à Amsterdam."
       },
@@ -18,7 +21,7 @@
         "description": "Une plateforme pour les passionnés de yoga qui pratiquent tous les jours grâce à des cours en direct et explorent différents types de yoga avec une vaste librairie vidéo."
       },
       "portfolio": {
-        "description": "Un site portfolio pour présenter mes compétences et mes projets. Ainsi qu'une excellente opportunité pour expérimenter un framework JS : Vue.js with Nuxt 3."
+        "description": "Un site portfolio pour présenter mes compétences et mes projets."
       }
     },
     "cta": "Visiter le site"
