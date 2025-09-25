@@ -59,6 +59,7 @@
       py-2 px-4
       rounded-sm
       inline-block
-      hover:shadow-lg hover:bg-pink;
+      border border-brick
+      hover:bg-transparent hover:text-brick;
   }
 }

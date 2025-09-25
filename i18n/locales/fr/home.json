@@ -2,24 +2,24 @@
   "home": {
     "header": {
       "available": "Disponible",
-      "title": "Embauchez une développeuse qui combine <span class='text-gradient'>compétences techniques</span> et <span class='text-gradient'>approche marketing</span>",
-      "description": "J'aide les entrepreneurs, les startups et les PME à convertir leurs idées en produits web. Travaillons ensemble !",
+      "title": "Des <span class='text-gradient'>solutions web</span> sur mesure pour propulser votre activité",
+      "description": "Je travaille avec des entrepreneurs et des petites entreprises qui ont besoin de plus qu'une simple développeuse, mais de quelqu'un qui peut réfléchir stratégiquement à ce qu'il faut construire et pourquoi.<br>Travaillons ensemble !",
       "cta": "Découvrir mes services"
     },
     "strengths": {
       "title": "Pourquoi me confier votre projet",
       "cards": [
         {
-          "title": "Prête à livrer",
+          "title": "Vision produit avant tout",
           "description": "J'ai travaillé sur des projets Ruby on Rails pour diverses industries. Je peux me joindre à votre équipe ou nous pouvons commencer un nouveau projet ensemble."
         },
         {
-          "title": "Plus que du code",
-          "description": "Grâce à mon expérience en marketing, je conçois des produits web qui s'adaptent aux besoins des utilisateurs et aux objectifs de l'entreprise."
+          "title": "Polyvalence full-stack",
+          "description": "Backend, frontend, UI/UX, intégrations d’API, SEO : je prends en charge l’ensemble afin que vous n’ayez pas besoin de plusieurs spécialistes."
         },
         {
-          "title": "Dynamique et curieuse",
-          "description": "J'ai changé deux fois de carrière. Je suis toujours prête à relever un défi, tester de nouvelles technologies et apprendre de nouvelles pratiques."
+          "title": "Approche marketing",
+          "description": "Grâce à mon expérience en marketing, je conçois des solutions pensées pour l’acquisition, la rétention et la conversion des utilisateurs."
         }
       ]
     },

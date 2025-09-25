@@ -55,7 +55,7 @@
 </template>
 
 <script setup>
-  import headshot from '@/assets/images/headshot.png';
+  import headshot from '@/assets/images/headshot2025.webp';
   import { useI18n } from 'vue-i18n';
 
   const { t, tm, rt } = useI18n();

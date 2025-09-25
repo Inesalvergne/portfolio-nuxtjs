@@ -10,7 +10,7 @@
         </div>
 
         <h1 v-html="t('home.header.title')" class="my-5 text-brick text-[32px] font-semibold leading-[50px] laptop:text-[38px] "></h1>
-        <p class="text-xl">{{ t('home.header.description') }}</p>
+        <p class="text-xl" v-html="t('home.header.description')"></p>
         <NuxtLink to="/services" class="btn-primary mt-5">
           {{ t('home.header.cta') }}
         </NuxtLink>
@@ -37,12 +37,14 @@
     <section>
       <h2>{{ t('home.clients.title') }}</h2>
 
-      <div class="grid grid-cols-3 gap-8 laptop:grid-cols-5 laptop:gap-20 items-center">
-        <img src="@/assets/images/client_logos/karma_lama.png" alt="karma lama logo" class="h-auto max-h-16 max-w-25 m-auto" v-motion-pop-visible-once>
-        <img src="@/assets/images/client_logos/k_yoga.png" alt="k-yoga logo" class="h-auto max-h-16 max-w-25 m-auto" v-motion-pop-visible-once>
-        <img src="@/assets/images/client_logos/wally.webp" alt="wally logo" class="h-auto max-h-16 max-w-25 m-auto" v-motion-pop-visible-once>
-        <img src="@/assets/images/client_logos/lewagon.svg" alt="le wagon logo" class="h-auto max-h-16 max-w-25 m-auto" v-motion-pop-visible-once>
-        <img src="@/assets/images/client_logos/totem.webp" alt="totem logo" class="h-auto max-h-16 max-w-25 m-auto" v-motion-pop-visible-once>
+      <div class="flex flex-wrap gap-x-20 gap-y-10 items-center justify-center">
+        <img src="@/assets/images/client_logos/karma_lama.png" alt="karma lama logo" class="h-auto max-h-16 max-w-25" v-motion-pop-visible-once>
+        <img src="@/assets/images/client_logos/wally.webp" alt="wally logo" class="h-auto max-h-16 max-w-25" v-motion-pop-visible-once>
+        <img src="@/assets/images/client_logos/lewagon.svg" alt="le wagon logo" class="h-auto max-h-12 max-w-22" v-motion-pop-visible-once>
+        <img src="@/assets/images/client_logos/k_yoga.png" alt="k-yoga logo" class="h-auto max-h-16 max-w-25" v-motion-pop-visible-once>
+        <img src="@/assets/images/client_logos/totem.webp" alt="totem logo" class="h-auto max-h-16 max-w-25" v-motion-pop-visible-once>
+        <img src="@/assets/images/client_logos/rails_foundation.png" alt="ruby on rails foundation logo" class="h-auto max-h-20 max-w-28" v-motion-pop-visible-once>
+        <img src="@/assets/images/client_logos/follower_products.png" alt="follower products logo" class="h-auto max-h-22 max-w-28" v-motion-pop-visible-once>
       </div>
     </section>
 
