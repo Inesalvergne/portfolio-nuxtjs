@@ -2,24 +2,24 @@
   "home": {
     "header": {
       "available": "Available",
-      "title": "Hire a developer who combines <span class='text-gradient'>technical skills</span> with <span class='text-gradient'>a marketing edge</span>",
-      "description": "I help entrepreneurs, startups, and SMEs to convert their ideas into web products. Let's work together!",
+      "title": "Building the <span class='text-gradient'>web solutions</span> that move your business forward",
+      "description": "I work with entrepreneurs and small businesses who need more than just a coder, but someone who can think strategically about what to build and why. Let's start something together!",
       "cta": "Learn about my services"
     },
     "strengths": {
       "title": "Why hire me for your project",
       "cards": [
       {
-        "title": "Ready to deliver",
-        "description": "I have hands-on experience working on tech projects. I can either join your team or we can start a new project together."
+        "title": "Product-first thinking",
+        "description": "I understand both the 'what' and 'why' behind every feature, always asking 'what's the business impact?'."
       },
       {
-        "title": "More than just code",
-        "description": "With a background in marketing, I design products for various industries which connect with users and achieve business goals."
+        "title": "Full-stack versatility",
+        "description":"Backend, frontend, UI/UX, API integrations, SEO. I handle the complete picture so you don't need multiple specialists."
       },
       {
-        "title": "Driven and curious",
-        "description": "I've pivoted careers twice. I'm always eager to take on a challenge, test new technologies and approaches, and learn. "
+        "title": "Marketer approach",
+        "description": "My marketing background means I build with user acquisition, retention, and conversion in mind."
       }
     ]
     },
