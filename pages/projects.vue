@@ -29,6 +29,7 @@
   import kYogaImage from '@/assets/images/mockups/kyoga.png';
   import portfolioImage from '@/assets/images/mockups/portfolio.png';
   import followerProductsImage from '@/assets/images/mockups/follower_products.png';
+  import drawnImage from '@/assets/images/mockups/drawn.png';
 
   import { useI18n } from 'vue-i18n';
 
@@ -40,14 +41,14 @@
   })
 
   const projects = [
-    { title: "Follower Products",
-      description: t('projects.cards.follower_products.description'),
-      role: "Designer & Front-End Developer",
-      image: followerProductsImage,
+    { title: "Drawn Shop",
+      description: t('projects.cards.drawn.description'),
+      role: "Lead Full-Stack Developer",
+      image: drawnImage,
       imageClass: "laptop:w-[600px]",
       imageContainerClass: "justify-end items-center h-[250px] laptop:h-full",
-      tags: ["UI Design", "Front-end", "Nuxt", "Vue.js", "SEO"],
-      websiteLink: "https://followerproducts.io/"
+      tags: ["Rails", "3D Viewer", "Shapediver API", "UI Design"],
+      websiteLink: ""
     },
     { title: "Rails World 2025",
       description: t('projects.cards.rails_world.description'),
@@ -57,6 +58,15 @@
       imageContainerClass: "items-end justify-center h-[300px] laptop:h-full",
       tags: ["Front-End", "Jekyll", "Liquid", "Vanilla JS"],
       websiteLink: "https://rubyonrails.org/world/2025"
+    },
+    { title: "Follower Products",
+      description: t('projects.cards.follower_products.description'),
+      role: "Designer & Front-End Developer",
+      image: followerProductsImage,
+      imageClass: "laptop:w-[600px]",
+      imageContainerClass: "justify-end items-center h-[250px] laptop:h-full",
+      tags: ["UI Design", "Front-end", "Nuxt", "Vue.js", "SEO"],
+      websiteLink: "https://followerproducts.io/"
     },
     { title: "Wally",
       description: t('projects.cards.wally.description'),

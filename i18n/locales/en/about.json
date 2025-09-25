@@ -2,7 +2,7 @@
   "about": {
     "header": {
       "title": "About me",
-      "description": "I’m a Freelance Web Developer with 7 years of experience in the tech industry, including 3 years specializing in developing web projects. Learn about my journey getting here."
+      "description": "I combine 5 years of marketing experience with 3 years of developing products to create web solutions that help businesses grow. Learn about my journey getting here."
     },
     "presentation": {
       "title": "My diverse career path adds a twist to my work",
@@ -15,8 +15,8 @@
         "bgColor": "bg-transparent-pastel-1"
       },
       {
-        "value": "6",
-        "description": "happy clients with web apps in production",
+        "value": "9",
+        "description": "satisfied clients, including long-term collaborations",
         "bgColor": "bg-transparent-pastel-2"
       },
       {

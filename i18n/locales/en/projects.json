@@ -5,6 +5,9 @@
       "description": "Here's a showcase of projects I've enjoyed working on. Each of them has been an opportunity to learn and grow as a developer and collaborate with inspiring people."
     },
     "cards": {
+      "drawn": {
+        "description": "An e-commerce platform to create and customize street decorations with a 3D viewer, using the Shapediver API."
+      },
       "follower_products": {
         "description": "Complete redesign and development of the website - a multilingual, one-page showcase to present the company's security solutions with a clean interface."
       },

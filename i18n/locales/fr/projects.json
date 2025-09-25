@@ -5,6 +5,9 @@
       "description": "Ces projets ont été l'occasion d'apprendre et de progresser en tant que développeuse, tout en collaborant avec des personnes inspirantes. "
     },
     "cards": {
+      "drawn": {
+        "description": "Une plateforme e-commerce pour créer et personnaliser des décorations de rue avec un visualiseur 3D, utilisant l'API Shapediver."
+      },
       "follower_products": {
         "description": "Refonte complète et développement du site web — une vitrine one-page multilingue pour présenter les solutions de sécurité de l’entreprise avec une interface épurée."
       },
