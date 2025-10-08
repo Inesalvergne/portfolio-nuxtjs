@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- On Desktop -->
-    <div class="hidden tablet:block border border-pink rounded-lg w-fit mx-auto mt-10 ">
+    <div class="hidden tablet:block border border-pink border-opacity-30 rounded-lg w-fit mx-auto mt-10">
       <div class="flex items-center gap-16 py-3 px-10 text-brick">
         <NuxtLink to="/">
           <img src="@/assets/images/logo_ia.png" alt="logo ines alvergne" width="40" height="40">

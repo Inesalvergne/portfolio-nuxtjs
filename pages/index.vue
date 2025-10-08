@@ -1,7 +1,7 @@
 <template>
   <main>
-    <section class="laptop:flex items-center gap-20" v-motion-pop-visible-once>
-      <img src="@/assets/images/illustrations/strategy.svg" alt="drawing of a woman" width="330">
+    <section class="laptop:flex items-center gap-20 py-16 laptop:py-24 mt-0" v-motion-pop-visible-once>
+      <img src="@/assets/images/illustrations/strategy.svg" alt="drawing of a woman" class="w-[220px] laptop:w-[350px]">
 
       <div>
         <div class="tag bg-white  flex items-center gap-2 rounded-lg py-3 px-5 shadow-sm w-fit mt-10 laptop:mt-0">
@@ -9,16 +9,16 @@
           {{ t('home.header.available') }}
         </div>
 
-        <h1 v-html="t('home.header.title')" class="my-5 text-brick text-[32px] font-semibold leading-[50px] laptop:text-[38px] "></h1>
-        <p class="text-xl" v-html="t('home.header.description')"></p>
+        <h1 v-html="t('home.header.title')" class="my-5 ml-0 text-brick text-[30px] leading-[40px] font-semibold laptop:leading-[50px] laptop:text-[40px]"></h1>
+        <p class="text-xl my-8" v-html="t('home.header.description')"></p>
         <NuxtLink to="/services" class="btn-primary mt-5">
           {{ t('home.header.cta') }}
         </NuxtLink>
       </div>
     </section>
 
-    <section>
-      <h2 class="mb-6">{{ t('home.strengths.title') }}</h2>
+    <section class="mt-18">
+      <h2>{{ t('home.strengths.title') }}</h2>
 
       <img src="@/assets/images/illustrations/team.svg" alt="team illustration" class="mx-auto" width="150">
       <div class="w-full relative">
