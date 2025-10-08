@@ -11,10 +11,11 @@
   }
 
   section {
-    @apply mt-10 laptop:mt-20;
+    @apply mt-16 laptop:mt-32;
 
-    h2 { @apply text-[34px] mb-10 laptop:mb-14 }
+    h2 { @apply text-[28px] laptop:text-[34px] mb-14 laptop:mb-16 }
   }
+
 
   h1,h2,h3,h4 {
     @apply font-title;

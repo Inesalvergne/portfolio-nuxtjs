@@ -4,7 +4,7 @@
       "available": "Available",
       "title": "Building the <span class='text-gradient'>web solutions</span> that move your business forward",
       "description": "I work with entrepreneurs and small businesses who need more than just a coder, but someone who can think strategically about what to build and why. Let's start something together!",
-      "cta": "Learn about my services"
+      "cta": "Learn about my services →"
     },
     "strengths": {
       "title": "Why hire me for your project",
@@ -30,16 +30,22 @@
       "title": "What people say about me",
       "slides": [
         {
-          "avatar": "raphael.jpeg",
-          "quote": "Ines successfully combined aesthetics and functionality, which greatly improved the user experience of our website. She was attentive and adapted to all our requests. I highly recommend her for any project that requires both technical skill and creative flair!",
-          "name": "Raphael Moncada",
-          "role": "Business Development Manager, Follower Products"
+          "avatar": "amanda.jpeg",
+          "quote": "She was fantastic to work with and she did a great job, plus she was always communicative (and fast!). I’d happily recommend her to anyone looking for a reliable front-end dev, and would work with her again in the future.",
+          "name": "Amanda Perino",
+          "role": "Executive Director, Rails Foundation"
         },
         {
           "avatar": "gabriel.png",
           "quote": "Ines is a real pleasure to work with. Always relevant and motivated, she allowed us to double our velocity. A strong UI/UX designer, she helped us greatly improve the visual aspect of the platform. And yet, it was onthe back-end that she shipped the most. Put simply, there's nothing she can't do.",
           "name": "Gabriel Ibanez",
           "role": "CTO at Wally"
+        },
+        {
+          "avatar": "raphael.jpeg",
+          "quote": "Ines successfully combined aesthetics and functionality, which greatly improved the user experience of our website. She was attentive and adapted to all our requests. I highly recommend her for any project that requires both technical skill and creative flair!",
+          "name": "Raphael Moncada",
+          "role": "Business Development Manager, Follower Products"
         },
         {
           "avatar": "sylvain.jpg",
