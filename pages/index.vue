@@ -17,7 +17,7 @@
       </div>
     </section>
 
-    <section class="mt-18">
+    <section class="laptop:mt-18">
       <h2>{{ t('home.strengths.title') }}</h2>
 
       <img src="@/assets/images/illustrations/team.svg" alt="team illustration" class="mx-auto" width="150">
